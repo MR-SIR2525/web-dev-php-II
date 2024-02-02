@@ -66,7 +66,7 @@
 
         // print beginning of table
         print "
-        <table id=\"results-table\" class=\"simpletable v-center-children bold-borders\">
+        <table id=\"results-table\" class=\"bold-borders-table v-center-children\">
           <thead>
             <tr>
               <th>Novel</th>

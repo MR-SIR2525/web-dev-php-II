@@ -1,8 +1,8 @@
 /* 
     Name: Andrew Blythe
-    Netid: cab1361
+    netid: cab1361
 
-    a-style.css version 11/11/23
+    a-style.css version 1/31/24
 */
 html, body {
     margin: 0;
@@ -175,6 +175,17 @@ input[type=submit]:hover {
     background-color: #eeeeee;
 }
 
+.bold-borders-table {
+    border-collapse: collapse;
+}
+
+.bold-borders-table td, 
+.bold-borders-table th
+{
+    border: 3px solid black;
+    padding: 8px;
+}
+
 .a-center, .w3-center {
     text-align: center !important
 }
@@ -182,6 +193,14 @@ input[type=submit]:hover {
     /* some wizardry to center stuff */
     margin-left: auto;
     margin-right: auto;
+}
+
+.v-center {
+    vertical-align: middle
+}
+
+.v-center-children > * {
+    vertical-align: middle
 }
 
 .a-left {
@@ -194,6 +213,26 @@ input[type=submit]:hover {
 
 .inline-block, .fix-width {
     display: inline-block
+}
+
+.a-tiny {
+    font-size: xx-small
+}
+
+.a-small {
+    font-size:small
+}
+
+.a-large {
+    font-size: large
+}
+
+.a-larger {
+    font-size: larger
+}
+
+.a-xlarge {
+    font-size: x-large
 }
 
 /* Snippets from W3CSS 4.15 */
