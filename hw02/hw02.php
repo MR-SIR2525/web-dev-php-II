@@ -19,10 +19,11 @@
     #main-form table tr td:first-child {
       text-align: left;
     }
-    #results-table tbody tr td:nth-child(2) {
-      /* target specifically the 2nd column */
-      text-align: center;
-      padding: 0 !important;
+    #results-table tbody tr td:nth-child(2),
+    #results-table tbody tr td:nth-child(3),
+    #results-table tbody tr td:nth-child(4) {
+      /* 2nd, 3rd, 4th columns right aligned */
+      text-align: right;
     }
   </style>
 </head>
@@ -51,6 +52,7 @@
         $xml=simplexml_load_file($xmlFilename) or die("Error: Cannot create xml object using $xmlFilename");
 
         // print beginning of table
+        //********2nd, 3rd, 4th columns right aligned (see <style> inside of <head> above)********
         print "
         <table id=\"results-table\" class=\"bold-borders-table v-center-children\">
           <thead>
@@ -73,14 +75,14 @@
           if ($record->quantity > 0) 
           {
             $totalQuantity += $record->quantity;
-            $totalSpent += $record->price * $qty;
+            $totalSpent += $record->price * $record->quantity;
 
             print "
               <tr>
                 <td>$record->name</td>
                 <td>$record->price</td>
-                <td>$record->$quantity</td>
-                <td>$record->price * $qty</td>
+                <td>$record->quantity</td>
+                <td>".$record->price * $record->quantity."</td>
               </tr>
             ";
           }
@@ -89,7 +91,7 @@
 
         // print totals row
         print "
-          <tr>
+          <tr style=\"font-weight: bold\">
             <td colspan=\"2\" style=\"text-align: right\">Totals</td>
             <td>$totalQuantity</td>
             <td>$totalSpent</td>
