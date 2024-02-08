@@ -55,7 +55,7 @@
         <table id=\"results-table\" class=\"bold-borders-table v-center-children\">
           <thead>
             <tr>
-              <th>Name</th>
+              <th>Item</th>
               <th>Price</th>
               <th>Quantity</th>
               <th>Line Total</th>
@@ -64,17 +64,37 @@
 
           <tbody>";
         
+        $totalQuantity = 0; // initialize total quantity
+        $totalSpent = 0.00; // initialize total spent
+
         // print each purchase record
         foreach($xml->children() as $record) 
         {
-          print "
-          <tr>
-            <td>$record->name</td>
-            <td>$record->price</td>
-            <td>$record->quantity</td>
-            <td>$record->price * $record->quantity</td>
-          </tr>";
+          if ($record->quantity > 0) 
+          {
+            $totalQuantity += $record->quantity;
+            $totalSpent += $record->price * $qty;
+
+            print "
+              <tr>
+                <td>$record->name</td>
+                <td>$record->price</td>
+                <td>$record->$quantity</td>
+                <td>$record->price * $qty</td>
+              </tr>
+            ";
+          }
+         
         }
+
+        // print totals row
+        print "
+          <tr>
+            <td colspan=\"2\" style=\"text-align: right\">Totals</td>
+            <td>$totalQuantity</td>
+            <td>$totalSpent</td>
+          </tr>
+        ";
 
         //print the end of table
         print "
