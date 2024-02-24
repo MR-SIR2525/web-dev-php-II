@@ -1,0 +1,356 @@
+/* 
+    a-style.css version 2/15/24
+
+    Name: Andrew Blythe
+    netid: cab1361
+*/
+html, body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(235, 235, 235);
+}
+
+.diag {
+    background-color: dodgerblue;
+}
+.diag-border {
+    border: solid black 2px
+}
+
+/* .row {
+    border: solid black 2px;
+    box-sizing: border-box;
+} */
+
+
+.a-container {
+    padding: 2rem;
+}
+.a-container-1 {
+    padding: 1rem;
+}
+
+.br-default {
+    border-radius: 5px !important
+}
+.br-none {
+    border-radius: 0 !important
+}
+
+.warning-text {
+    color: rgb(219, 9, 9);
+}
+
+.title {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+table {
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.col-container {
+    display: grid;
+    grid-template-areas: 
+        'left left right right' ;
+    /* grid-column-gap: 10px; */
+    border-radius: 7px;
+    padding: 1.6rem;
+}
+
+.header-left-right-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        'header header'
+        'left right';
+    /* border-radius: 7px; */
+    padding: 1.6rem;
+}
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+  min-height: 20px;
+  /* border: 2px solid black; */
+}
+.header {grid-area: header;}
+.left {grid-area: left;}
+.middle {grid-area: middle;}
+.right {grid-area: right;}
+
+/* Different columns scheme... */
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/* When the screen is less than 600px wide, make the two columns stack on 
+    top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .col-container {
+        grid-template-areas:
+            'left left'
+            'right right';
+    }
+
+    .header-left-right-container {
+        grid-template-areas: 
+            'header'
+            'left'
+            'right';
+    }
+}
+
+/* For FORMS and inputs to have consistency */
+label {
+    margin-bottom: 8px;
+}
+
+input[type=text] {
+    padding: 5px 8px;
+    margin: 7px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: dodgerblue;
+    color: white;
+    padding: 7px 10px;
+    margin: 8px 0;
+    border: 1px solid dodgerblue;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: rgb(27, 111, 196);
+    border: 1px solid black;
+}
+/*** End of FORMS stuff */
+
+
+.w3-card {
+    background-color: rgb(251, 251, 253);
+}
+
+.simpletable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+.simpletable td, 
+.simpletable th
+{
+    border: 1px solid #dddddd;
+    padding: 8px;
+    /* text-align: left; */
+}
+
+.simpletable thead, .simpletable tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.bold-borders-table,
+.no-borders-table {
+    border-collapse: collapse;
+}
+
+.bold-borders-table td, 
+.bold-borders-table th
+{
+    border: 3px solid black;
+    padding: 8px;
+}
+
+.no-borders-table {
+    border: 0px
+}
+
+.thead-white-borders th {
+    border: 1px solid #eeeeee;
+}
+
+.black-thead th,
+.solid-thead th,
+.dark-background {
+    background-color: #242424;
+    color: #eeeeee
+}
+
+.a-center, 
+.a-center-children > *
+.w3-center {
+    text-align: center
+}
+
+.a-center-margin * {  
+    /* some wizardry to center stuff */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.v-center {
+    vertical-align: middle
+}
+
+.v-center-children > * {
+    vertical-align: middle
+}
+
+.a-left {
+    text-align: left
+}
+
+.a-right {
+    text-align: right
+}
+
+.inline-block, .fix-width {
+    display: inline-block
+}
+
+.a-tiny {
+    font-size: xx-small
+}
+
+.a-small {
+    font-size:small
+}
+
+.a-large {
+    font-size: large
+}
+
+.a-larger {
+    font-size: larger
+}
+
+.a-xlarge {
+    font-size: x-large
+}
+
+/* Snippets from W3CSS 4.15 */
+.w3-tiny {
+    font-size: 10px !important
+}
+
+.w3-small {
+    font-size: 12px !important
+}
+
+.w3-medium {
+    font-size: 15px !important
+}
+
+.w3-large {
+    font-size: 18px !important
+}
+
+.w3-xlarge {
+    font-size: 24px !important
+}
+
+.w3-xxlarge {
+    font-size: 36px !important
+}
+
+.w3-xxxlarge {
+    font-size: 48px !important
+}
+
+.w3-jumbo {
+    font-size: 64px !important
+}
+
+.w3-card,
+.w3-card-2 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+.w3-card-4,
+.w3-hover-shadow:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.w3-table,
+.w3-table-all {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table
+}
+
+.w3-table-all {
+    border: 1px solid #ccc
+}
+
+.w3-bordered tr,
+.w3-table-all tr {
+    border-bottom: 1px solid #ddd
+}
+
+.w3-striped tbody tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.w3-table-all tr:nth-child(odd) {
+    background-color: #fff
+}
+
+.w3-table-all tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.w3-hoverable tbody tr:hover,
+.w3-ul.w3-hoverable li:hover {
+    background-color: #ccc
+}
+
+.w3-centered tr th,
+.w3-centered tr td {
+    text-align: center
+}
+
+.w3-table td,
+.w3-table th,
+.w3-table-all td,
+.w3-table-all th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top
+}
+
+.w3-table th:first-child,
+.w3-table td:first-child,
+.w3-table-all th:first-child,
+.w3-table-all td:first-child {
+    padding-left: 16px
+}
+
+/* End of W3CSS */
