@@ -37,7 +37,7 @@
     </section>
 
 
-    <section id="results">
+    <section id="results" class="a-center-margin">
     <?php
 
       $db_novels = new mysqli("localhost", "student", "password", "novels") or die("Error: Unable to connect to database.");
