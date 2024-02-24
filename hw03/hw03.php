@@ -27,7 +27,7 @@
   </style>
 </head>
 
-<body>
+<body class="a-container"> <!-- perhaps it's a little cursed to 'a-container' the <body> lol -->
   <SECTION class="w3-card a-container">
 
     <!-- header -->
