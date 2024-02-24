@@ -46,55 +46,40 @@
       // Perform query
       if ($result = $db_novels->query($query)) 
       {
+        // successful query...
+        // print beginning of table
+        print "
+        <table id=\"results-table\" class=\"bold-borders-table v-center-children\">
+          <thead>
+            <tr>
+              <th>Book</th>
+              <th>Cover</th>
+            </tr>
+          </thead>
+          <tbody>";
+
         if ($result->num_rows > 0) 
         {
           while ($row = $result->fetch_assoc()) 
           {
-            // Iterate through each column in the row
-            foreach ($row as $column => $value) 
-            {
-              print $column . ": " . $value . " | ";
-            }
-            print "<br>"; // New line for the next row
+            print "
+              <tr>
+                <td>$row[title]</td>
+                <td><img src=\"$row[cover]\" height=\"100\"></td>
+              </tr>
+            ";
           }
-        } 
-        else 
-        {
-          print "No records found.";
+        } else {
+          print "<tr><td colspan=\"2\">No records found in the database.</td></tr>";
         }
 
-        $result->free_result(); // release memory
+        $result->free_result(); // release memory after printing table
       }
+      else
+        print "Error: $db_novels->error";
+
 
       $db_novels -> close();
-      
-      exit();
-
-      // print beginning of table
-      print "
-      <table id=\"results-table\" class=\"bold-borders-table v-center-children\">
-        <thead>
-          <tr>
-            <th>Book</th>
-            <th>Cover</th>
-          </tr>
-        </thead>
-        <tbody>";
-      
-      foreach ($novels as $i=> $novel)
-      {
-        print "
-          <tr>
-            <td>$novel</td>
-            <td><img src=\"$covers[$i]\" height=\"100\"></td>
-          </tr>";
-      }
-      
-
-      //print the end of table
-      print "
-        </tbody>
-      </table>";
     ?>
     </section>
   </SECTION>
