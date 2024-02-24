@@ -1,0 +1,24 @@
+name: PHP Test1
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up PHP 7.4
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '7.4.3' # to match hw server's version
+        
+    # Add a step to run your PHP homework file
+    - name: Run PHP file
+      run: php ./hw03.php
