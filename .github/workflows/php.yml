@@ -21,4 +21,4 @@ jobs:
         
     # Add a step to run your PHP homework file
     - name: Run PHP file
-      run: php ./hw03.php
+      run: php ./hw03/hw03.php
