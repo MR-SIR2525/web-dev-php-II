@@ -44,13 +44,30 @@
       $query = "SELECT * FROM novels";
 
       // Perform query
-      if ($result = $db_novels->query($query)) {
-        echo "Returned rows are: " . $result -> num_rows;
-        // Free result set
-        $result -> free_result();
+      if ($result = $db_novels->query($query)) 
+      {
+        if ($result->num_rows > 0) 
+        {
+          while ($row = $result->fetch_assoc()) 
+          {
+            // Iterate through each column in the row
+            foreach ($row as $column => $value) 
+            {
+              print $column . ": " . $value . " | ";
+            }
+            print "<br>"; // New line for the next row
+          }
+        } 
+        else 
+        {
+          print "No records found.";
+        }
+
+        $result->free_result(); // release memory
       }
 
       $db_novels -> close();
+      
       exit();
 
       // print beginning of table

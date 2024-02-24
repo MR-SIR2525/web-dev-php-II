@@ -20,5 +20,5 @@ jobs:
         php-version: '7.4.3' # to match hw server's version
         
     # Add a step to run your PHP homework file
-    - name: Run PHP file
+    - name: Run PHP file to see if it fails anywhere
       run: php ./hw03/hw03.php
