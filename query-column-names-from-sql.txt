@@ -1,0 +1,5 @@
+foreach ($row as $column => $value) 
+{
+  print $column . ": " . $value . " | ";
+}
+print "<br>"; // New line for the next row

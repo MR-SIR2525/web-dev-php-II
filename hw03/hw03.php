@@ -57,6 +57,8 @@
             </tr>
           </thead>
           <tbody>";
+      
+        //actual column names in db:  title, image
 
         if ($result->num_rows > 0) 
         {
@@ -65,7 +67,7 @@
             print "
               <tr>
                 <td>$row[title]</td>
-                <td><img src=\"$row[cover]\" height=\"100\"></td>
+                <td><img src=\"$row[image]\" height=\"100\"></td>
               </tr>
             ";
           }
