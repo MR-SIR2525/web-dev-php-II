@@ -42,19 +42,31 @@
       <!-- left -->
       <section class="left a-center">      
       <?php
-        $db = new mysqli("localhost", "student", "password", "university");
-        $query = "SELECT * FROM university";
+        $db = new mysqli("localhost", "student", "password", "university") or die("Error: Unable to connect to database... $db->connect_error");
 
         // print beginning of table
         //********2nd, 3rd, 4th columns right aligned (see <style> inside of <head> above)********
-        // print "
-        // <table id=\"form-table\" class=\"no-borders-table\">
+        print "
+        <table id=\"form-table\" class=\"no-borders-table\">
 
-        //   <tbody>";
+          <tbody>";
+
+        // Query to get all tables in the database
+        $sql = "SHOW TABLES";
+        $tables = $db->query($sql);
+        foreach ($tables as $table) 
+        {
+          foreach ($table as $key => $value)
+          {
+            print "$value<br>";
+          }
+        }
+
 
         // figure out the columns
         if ($result = $db->query($query)) 
         {
+          print "got result";
           if ($result->num_rows > 0) {
               // Fetch associative array for each row
               while ($row = $result->fetch_assoc()) {
@@ -68,7 +80,11 @@
               print "No records found.";
           }
           // Free result set
-          $result->free_result();
+          // $result->free_result() or print "Error freeing result: " . $db->error;
+        }
+        else 
+        {
+          print "Error: " . $db->error;
         }
 
         $db->close();
