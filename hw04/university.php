@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="a-style.css">
   <link rel="stylesheet" href="bootstrap-m-p.css">
-  <link rel="stylesheet" href="university.css">
 
   <title>Homework 4 | Andrew Blythe</title>
   <!---------------------------------
@@ -17,14 +16,8 @@
     Hw04
    --------------------------------->
   <style>
-    #main-form table tr td:first-child {
-      text-align: left;
-    }
-    #results-table tbody tr td:nth-child(2),
-    #results-table tbody tr td:nth-child(3),
-    #results-table tbody tr td:nth-child(4) {
-      /* 2nd, 3rd, 4th columns right aligned */
-      text-align: right;
+    #results-table tbody tr td:nth-child(2) {
+      text-align: center;
     }
   </style>
 </head>
@@ -43,90 +36,83 @@
       <section class="left a-center">      
       <?php
         $db = new mysqli("localhost", "student", "password", "university") or die("Error: Unable to connect to database... $db->connect_error");
+        //Tables:
+        // courses
+        // courses_taken
+        // department
+        // student
 
-        // print beginning of table
-        //********2nd, 3rd, 4th columns right aligned (see <style> inside of <head> above)********
+        // print beginning of form and table
         print "
-        <table id=\"form-table\" class=\"no-borders-table\">
+        <form action=\"university.php\" method=\"post\">
+          <table id=\"form-table\" class=\"no-borders-table a-left\">
+            <tbody>";
 
-          <tbody>";
-
-        // Query to get all tables in the database
-        $sql = "SHOW TABLES";
-        $tables = $db->query($sql);
-        foreach ($tables as $table) 
+        if ($courses = $db->query("select * from courses")) 
         {
-          foreach ($table as $key => $value)
+          // Fetch associative array for each row
+          while ($row = $courses->fetch_assoc()) 
           {
-            print "$value<br>";
-          }
-        }
-
-
-        // figure out the columns
-        if ($result = $db->query($query)) 
-        {
-          print "got result";
-          if ($result->num_rows > 0) {
-              // Fetch associative array for each row
-              while ($row = $result->fetch_assoc()) {
-                  // Iterate through each column in the row
-                  foreach ($row as $column => $value) {
-                      echo $column . ": " . $value . " | ";
-                  }
-                  echo "<br>"; // New line for the next row
-              }
-          } else {
-              print "No records found.";
+            print "
+            <tr>
+              <td>
+                <input type=\"radio\" name=\"course\" value=\"".$row["course_id"]."\">
+                " . $row["dept"] . " " . $row["code"] . "
+                </input>
+              </td>
+            </tr>";            
           }
           // Free result set
-          // $result->free_result() or print "Error freeing result: " . $db->error;
+          // $courses->free_result() or print "Error freeing result: " . $db->error;
         }
         else 
-        {
           print "Error: " . $db->error;
-        }
 
+        // print the end of table and form
+        print "
+            </tbody>
+          </table>
+        </form>";
         $db->close();
-        
       ?>
-
       </section>
 
       <!-- right -->
       <section id="results" class="right">
       <?php
-        // print beginning of table
-        //********2nd, 3rd, 4th columns right aligned (see <style> inside of <head> above)********
-        print "
-        <table id=\"results-table\" class=\"no-borders-table\">
-          <thead>
-            <tr>
-              <th>idk yet</th>
-            </tr>
-          </thead>
+        if (isset($_POST["course"]))
+        {
+          $course = $_POST["course"];
+          $db = new mysqli("localhost", "student", "password", "university") or die("Error: Unable to connect to database... $db->connect_error");
 
-          <tbody>";
-        
-        $totalQuantity = 0; // initialize total quantity
-        $totalSpent = 0.00; // initialize total spent
+          // print beginning of table
+          print "
+          <table id=\"results-table\" class=\"no-borders-table\">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Grade</th>
+              </tr>
+            </thead>
+            <tbody>";
+          
+          if ($students = $db->query("select * from student where student_id in (select student_id from courses_taken where course_id = $course)"))
+          {
+            // Fetch associative array for each row
+            while ($row = $students->fetch_assoc())
+            {
+              print "<tr>
+                <td>" . $row["name"] . "</td>
+                <td>" . $row["grade"] . "</td>
+              </tr>";
+            }
+          }
 
-        // print 
-         
-
-
-        // print totals row
-        print "
-          <tr style=\"font-weight: bold\">
-            <td colspan=\"2\" style=\"text-align: right\">Totals</td>
-            
-          </tr>
-        ";
-
-        //print the end of table
-        print "
-          </tbody>
-        </table>";
+          //print the end of table
+          print "
+            </tbody>
+          </table>";
+        }
       ?>
       </section>
 

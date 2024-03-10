@@ -1,5 +1,5 @@
 /* 
-    a-style.css version 2/15/24
+    a-style.css version 3/9/24
 
     Name: Andrew Blythe
     netid: cab1361
@@ -187,8 +187,13 @@ input[type=submit]:hover {
     padding: 8px;
 }
 
-.no-borders-table {
-    border: 0px
+.no-borders-table, 
+.no-borders-table td, 
+.no-borders-table th, 
+.no-borders-table tr
+{
+    border: 0px;
+    border-style: none;
 }
 
 .thead-white-borders th {
