@@ -56,14 +56,16 @@
             print "
             <tr>
               <td>
-                <input type=\"radio\" name=\"course\" value=\"".$row["course_id"]."\">
-                " . $row["dept"] . " " . $row["code"] . "
-                </input>
+                <input type=\"radio\" name=\"course\" value=\"".$row["course_id"]."\" id=\"".$row["course_id"]."\" required />
+                <label for=\"".$row["course_id"]."\"> ".$row["dept"]." ".$row["code"]."</label>
               </td>
             </tr>";            
           }
           // Free result set
           // $courses->free_result() or print "Error freeing result: " . $db->error;
+          print "<tr>
+            <td><input type=\"submit\" value=\"Submit\"></td>
+          </tr>";
         }
         else 
           print "Error: " . $db->error;
