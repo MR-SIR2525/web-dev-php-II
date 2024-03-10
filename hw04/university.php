@@ -45,7 +45,7 @@
         // print beginning of form and table
         print "
         <form action=\"university.php\" method=\"post\">
-          <table id=\"form-table\" class=\"no-borders-table a-left\">
+          <table id=\"form-table\" class=\"no-borders-table a-left a-center-margin\">
             <tbody>";
 
         if ($courses = $db->prepare("select * from courses")) 
@@ -95,7 +95,7 @@
 
           // print beginning of table
           print "
-          <table id=\"results-table\" class=\"no-borders-table\">
+          <table id=\"results-table\" class=\"no-borders-table a-center-margin\">
             <thead>
               <tr>
                 <th style='text-align: left'>Name</th>
