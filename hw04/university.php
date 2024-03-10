@@ -48,15 +48,19 @@
           <table id=\"form-table\" class=\"no-borders-table a-left\">
             <tbody>";
 
-        if ($courses = $db->query("select * from courses")) 
+        if ($courses = $db->prepare("select * from courses")) 
         {
+          //apparently prevents sql injection
+          $courses->execute();
+          $courses = $courses->get_result();
+
           // Fetch associative array for each row
           while ($row = $courses->fetch_assoc()) 
           {
             print "
             <tr>
               <td>
-                <input type=\"radio\" name=\"course\" value=\"".$row["course_id"]."\" id=\"".$row["course_id"]."\" required />
+                <input type=\"radio\" name=\"course_id\" value=\"".$row["course_id"]."\" id=\"".$row["course_id"]."\" required />
                 <label for=\"".$row["course_id"]."\"> ".$row["dept"]." ".$row["code"]."</label>
               </td>
             </tr>";            
@@ -79,12 +83,14 @@
       ?>
       </section>
 
+
       <!-- right -->
       <section id="results" class="right">
       <?php
-        if (isset($_POST["course"]))
+        if (isset($_POST["course_id"]))
         {
-          $course = $_POST["course"];
+          $course_id = $_POST["course_id"];
+          // print "Course id chosen: " . $course_id;
           $db = new mysqli("localhost", "student", "password", "university") or die("Error: Unable to connect to database... $db->connect_error");
 
           // print beginning of table
@@ -92,29 +98,44 @@
           <table id=\"results-table\" class=\"no-borders-table\">
             <thead>
               <tr>
-                <th>Name</th>
+                <th style='text-align: left'>Name</th>
                 <th>Grade</th>
               </tr>
             </thead>
             <tbody>";
           
-          if ($students = $db->query("select * from student where student_id in (select student_id from courses_taken where course_id = $course)"))
-          {
-            // Fetch associative array for each row
-            while ($row = $students->fetch_assoc())
-            {
-              print "<tr>
-                <td>" . $row["name"] . "</td>
-                <td>" . $row["grade"] . "</td>
-              </tr>";
-            }
-          }
+          $query = "
+            SELECT s.fname, s.lname, ct.grade
+            FROM student as s
+            JOIN courses_taken as ct ON s.student_id = ct.taken_student
+            WHERE ct.taken_course = ?
+          ";
 
+          if ($students = $db->prepare($query))
+          {
+            $students->bind_param("s", $course_id); //apparently these 3 prevent sql injection
+            $students->execute();
+            $students = $students->get_result();
+          
+            if ($students->num_rows > 0)
+            {
+              while ($row = $students->fetch_assoc())
+              {
+                print "<tr>
+                  <td>" . $row["fname"] . " " . $row["lname"] . "</td>
+                  <td>" . $row["grade"] . "</td>
+                </tr>";
+              }
+            }
+            $students->close();
+          }
           //print the end of table
           print "
             </tbody>
           </table>";
         }
+        else
+          print "Select a course to see students in it.";
       ?>
       </section>
 
