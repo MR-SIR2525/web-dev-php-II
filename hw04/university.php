@@ -135,7 +135,7 @@
           </table>";
         }
         else
-          print "Select a course to see students in it.";
+          print "Select a course to see the students in it.";
       ?>
       </section>
 
