@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="a-style.css">
+
+  <title>Homework 5 | Andrew Blythe</title>
+  <!---------------------------------
+    Name: Andrew Blythe
+    Netid: cab1361
+    Date: 3/28/2024
+
+    Hw05
+   --------------------------------->
+  <style>
+    #results-table tbody tr td:nth-child(2) {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="a-container">
+    <SECTION class="header-left-right-container w3-card">
+
+      <!-- header -->
+      <section class="header a-center">
+        <h2 class="w3-large mt-0 mb-1">Homework 4</h2>
+        <!-- <h1 class="w3-xxlarge mt-0" style="margin-bottom: 1rem">title</h1> -->
+      </section>
+
+      <!-- left -->
+      <section class="left a-center">      
+        <form onsubmit="myFunction(); return false;" name="form1">
+            <!-- it tries to post then everything is gone (javascript), fix? -->
+
+            Object: 
+               <input type="radio" name="shape" value="cone"> Cone 
+               <input type="radio" name="shape" value="cylinder"> Cylinder
+               <input type="radio" name="shape" value="capsule"> Capsule
+        
+            <br /><br />
+            
+            Radius: <input type="text" name="radius" size="5" /> <br />
+            Height: <input type="text" name="height" size="5"> <br />
+            
+            <input type="submit" name="submit" value="Calculate">
+            
+        </form>
+      </section>
+
+
+      <!-- right -->
+      <section id="results" class="right">
+        
+      </section>
+
+    </SECTION>
+  </div>
+
+  <script src="surface-area.js"></script>
+</body>
+
+</html>
