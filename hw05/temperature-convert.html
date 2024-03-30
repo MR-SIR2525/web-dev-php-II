@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="a-style.css">
+
+  <title>Homework 5 | Andrew Blythe</title>
+  <!---------------------------------
+    Name: Andrew Blythe
+    Netid: cab1361
+    Date: 3/30/2024
+
+    Hw05
+   --------------------------------->
+  <style>
+    #input, #results {
+      min-height: 200px; 
+    }
+  </style>
+</head>
+
+<body>
+  <div class="a-container">
+    <SECTION class="header-left-right-container">
+
+      <!-- header -->
+      <section class="header a-center a-container w3-card br-default mb-3">
+        <h2 class="w3-large my-0">Homework 5</h2>
+        <!-- <h1 class="w3-xxlarge mt-0" style="margin-bottom: 1rem">title</h1> -->
+      </section>
+
+      <!-- left -->
+      <section id="input" class="left a-container w3-card br-default mr-2">
+
+        <form onsubmit="return false;" name="form1">
+          <label for="temp">Temperature</label>
+          <input type="text" name="temp" id="temp" size="1" placeholder="0.00">
+          <br>
+
+          <input type="radio" name="scale" value="convert_to_celsius" id="convert_to_celsius">
+          <label for="convert_to_celsius">Convert to Celsius</label>
+          <br>
+
+          <input type="radio" name="scale" value="convert_to_fahrenheit" id="convert_to_fahrenheit">
+          <label for="convert_to_fahrenheit">Convert to Fahrenheit</label>
+          <br>
+
+          <input type="submit" name="submit" value="Convert">
+        </form>
+
+      </section>
+
+
+      <!-- right -->
+      <section id="results" class="right a-container w3-card br-default ml-2">
+
+      </section>
+
+    </SECTION>
+  </div>
+
+  <script src="hw05-script.js"></script>
+</body>
+
+</html>
