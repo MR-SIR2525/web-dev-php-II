@@ -1,5 +1,5 @@
 /* 
-    a-style.css version 3/9/24
+    a-style.css version 4/13/24
 
     Name: Andrew Blythe
     netid: cab1361
@@ -32,7 +32,17 @@ html, body {
 }
 
 .br-default {
+    border-radius: 7px !important
+    /* used to be 5px */
+}
+.br-5px {
     border-radius: 5px !important
+}
+.br-7px {
+    border-radius: 7px !important
+}
+.br-10px {
+    border-radius: 10px !important
 }
 .br-none {
     border-radius: 0 !important
@@ -40,6 +50,10 @@ html, body {
 
 .warning-text {
     color: rgb(219, 9, 9);
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .title {
@@ -57,7 +71,6 @@ table {
     display: grid;
     grid-template-areas: 
         'left left right right' ;
-    /* grid-column-gap: 10px; */
     border-radius: 7px;
     padding: 1.6rem;
 }
@@ -65,6 +78,10 @@ table {
 .grid-gap-1 {
     grid-column-gap: 1rem;
     row-gap: 1rem;
+}
+.grid-gap-2 {
+    grid-column-gap: 2rem;
+    row-gap: 2rem;
 }
 
 .header-left-right-container {
@@ -74,7 +91,7 @@ table {
         'header header'
         'left right';
     /* border-radius: 7px; */
-    padding: 1.6rem;
+    /* padding: 1.6rem; */
 }
 
 .left,
@@ -157,13 +174,20 @@ input[type=submit]:hover {
     background-color: rgb(27, 111, 196);
     border: 1px solid black;
 }
-/*** End of FORMS stuff */
-
+/*** End of Forms stuff */
 
 .w3-card {
     background-color: rgb(251, 251, 253);
 }
 
+.width-100 {    width: 100%;    }
+.width-90 {     width: 90%;     }
+.width-80 {     width: 80%;     }
+.width-75 {     width: 75%;     }
+.width-50 {     width: 50%;     }
+.width-25 {     width: 25%;     }
+
+/**************** Tables ******************/
 .simpletable {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -190,7 +214,7 @@ input[type=submit]:hover {
 .bold-borders-table th
 {
     border: 3px solid black;
-    padding: 8px;
+    /* padding: 8px; */
 }
 
 .no-borders-table, 
@@ -212,6 +236,65 @@ input[type=submit]:hover {
     background-color: #242424;
     color: #eeeeee
 }
+
+/* Table item things */
+.table-items-centered td,
+.table-items-centered th,
+.table-items-center td,
+.table-items-center th {
+    text-align: center
+}
+.table-items-right td,
+.table-items-right th {
+    text-align: right
+}
+.table-items-left td,
+.table-items-left th {
+    text-align: left
+}
+
+.table-padding-1 td,
+.table-padding-1 th {
+    padding: 0.25rem
+}
+
+.table-padding-3 td,
+.table-padding-3 th {
+    padding: 0.5rem
+}
+.table-padding-1 td,
+.table-padding-1 th {
+    padding: 1rem
+}
+.table-padding-3 td,
+.table-padding-3 th {
+    padding: 2rem
+}
+.table-padding-3 td,
+.table-padding-3 th {
+    padding: 3rem
+}
+
+/* Tables > color stuff */
+/* - Green striped */
+.table-striped-green th {
+    background-color: #47bc56;
+}
+
+.table-striped-green tr:nth-child(2) td {
+    background-color: #f1f1f1;
+}
+
+/* Striped effect for the rest of the table rows starting from the third row */
+.table-striped-green tr:nth-child(odd) td {
+    background-color: #9ef19e;
+}
+
+.table-striped-green tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+/**************** End of Tables ******************/
 
 .a-center, 
 .a-center-children > *
@@ -353,7 +436,7 @@ input[type=submit]:hover {
 .w3-table-all th {
     padding: 8px 8px;
     display: table-cell;
-    text-align: left;
+    /* text-align: left; */
     vertical-align: top
 }
 
