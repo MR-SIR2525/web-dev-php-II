@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="a-style.css">
+
+  <title>Homework 6 | Andrew Blythe</title>
+  <!---------------------------------
+    Name: Andrew Blythe
+    Netid: cab1361
+    Date: 4/10/2024
+
+    Homework 6
+   --------------------------------->
+  <style>
+    #input,
+    #results {
+      min-height: 200px;
+    }
+
+    #form1 table tr td:first-child {
+      text-align: right;
+    }
+</style>
+</head>
+
+<body>
+  <div class="a-container">
+    <SECTION class="header-left-right-container grid-gap-1">
+
+      <!-- header -->
+      <section class="header a-center a-container w3-card br-default">
+        <h2 class="w3-large my-0">Homework 6 - Forecasting Population Growth</h2>
+        <!-- <h1 class="w3-xxlarge mt-0" style="margin-bottom: 1rem">title</h1> -->
+      </section>
+
+      <!-- left -->
+      <section id="input" class="left a-container w3-card br-default">
+        <form onsubmit="return false;" method="post" id="form1" class="a-center-margin">
+          <table class="a-center-margin">
+            <!-- each tr's first child is right-aligned -->
+            <tr>
+              <td><label for="years">Years to Forcast:&nbsp;</label></td>
+              <td><input type="text" name="years" size="3" required></td>
+            </tr>
+            <tr>
+              <td><label for="pop">Starting Population:&nbsp;</label></td>
+              <td><input type="text" name="population" size="3" required></td>
+            </tr>
+            <tr>
+              <td><label for="rate">Growth Rate:&nbsp;</label></td>
+              <td><input type="text" name="rate" size="3" placeholder="10" required></td>
+              <td>%</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td><input class="w3-hover-shadow" type="submit" value="Calculate"></td>
+            </tr>
+          </table>
+        </form>
+
+      </section>
+
+      <!-- right -->
+      <section id="results" class="right a-container-1 w3-card br-default">
+        &nbsp;
+      </section>
+
+    </SECTION>
+  </div>
+
+  <script src="pop.js"></script>
+</body>
+
+</html>
