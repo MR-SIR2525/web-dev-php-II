@@ -12,10 +12,10 @@ function calculate()
 {
     form1 = document.forms.form1;
     
-    population = parseInt(form1.population.value) || "";
-    years = parseInt(form1.years.value) || "";
+    population = parseFloat(form1.population.value);
+    years = parseInt(form1.years.value);
     currentYear = new Date().getFullYear();
-    rate = parseFloat(form1.rate.value) || "";
+    rate = parseFloat(form1.rate.value);
 
 
     //data validation
@@ -30,7 +30,7 @@ function calculate()
         data_okay = false;
         error_messages.push("- Starting population must 0 or greater.");
     }
-    if (isNaN(rate) || rate == "") {
+    if (isNaN(rate)) {
         data_okay = false;
         error_messages.push("- Growth rate must be a number.");
     }
@@ -50,8 +50,11 @@ function calculate()
             growth = population * rate / 100;
             population += growth;
 
+            roundedPopulation = Math.round(population);
+            roundedGrowth = Math.round(growth);
+
             tableContents.push(
-                "<tr><td>" + (currentYear + i) + "</td><td>" + population.toFixed(0) + "</td><td>" + growth.toFixed(0) + "</td></tr>\n"
+                "<tr><td>" + (currentYear + i) + "</td><td>" + roundedPopulation.toLocaleString() + "</td><td>" + roundedGrowth.toLocaleString() + "</td></tr>\n"
             );
         }
 
