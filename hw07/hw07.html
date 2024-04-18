@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="a-style.css">
+
+  <title>Homework 7 | Andrew Blythe</title>
+  <!---------------------------------
+    Name: Andrew Blythe
+    Netid: cab1361
+    Date: 4/19/2024
+
+    Homework 7
+   --------------------------------->
+  <style>
+    #input,
+    #results {
+      min-height: 200px;
+    }
+
+    #form1 table tr td:first-child {
+      text-align: right;
+    }
+</style>
+</head>
+
+<body>
+  <div class="a-container">
+    <SECTION class="header-left-right-container grid-gap-1">
+
+      <!-- header -->
+      <section class="header a-center a-container w3-card br-default">
+        <h2 class="w3-large my-0">Searching XML file for region's data</h2>
+        <!-- <h1 class="w3-xxlarge mt-0" style="margin-bottom: 1rem">title</h1> -->
+      </section>
+
+      <!-- left -->
+      <section id="input" class="left a-container w3-card br-default">
+        <form id="form1">
+          <input type="radio" name="continent" value="Africa"> Africa<br>
+          <input type="radio" name="continent" value="Australia/Oceania"> Australia/Oceania<br>
+          <input type="radio" name="continent" value="Europe"> Europe<br>
+          <input type="radio" name="continent" value="North America"> North America<br>
+          <input type="radio" name="continent" value="South America"> South America<br>
+          <button type="button" id="searchButton">Search</button>
+        </form>
+
+      </section>
+
+      <!-- right -->
+      <section id="results" class="right a-container-1 w3-card br-default">
+        &nbsp;
+      </section>
+
+    </SECTION>
+  </div>
+
+  <script src="pop.js"></script>
+</body>
+
+</html>

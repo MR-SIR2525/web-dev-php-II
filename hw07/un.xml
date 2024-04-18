@@ -1,0 +1,1160 @@
+<un-data>	
+        <country>
+						<name> Afghanistan </name>
+						<continent>Asia</continent>
+						<pop> 28.00 </pop>
+						<area> 251772.00 </area>
+		</country>
+	  	<country>
+						<name> Albania </name>
+						<continent>Europe</continent>
+						<pop> 3.00 </pop>
+						<area> 11100.00 </area>
+		</country>
+	  	<country>
+						<name> Algeria </name>
+						<continent>Africa</continent>
+						<pop> 35.00 </pop>
+						<area> 919595.00 </area>
+		</country>
+	  	<country>
+						<name> Andorra </name>
+						<continent>Asia</continent>
+						<pop> 20.00 </pop>
+						<area> 181.00 </area>
+		</country>
+	  	<country>
+						<name> Angola </name>
+						<continent>Africa</continent>
+						<pop> 19.00 </pop>
+						<area> 481354.00 </area>
+		</country>
+	  	<country>
+						<name> Antigua and Barbuda </name>
+						<continent>North America</continent>
+						<pop> 0.00 </pop>
+						<area> 108.00 </area>
+		</country>
+	  	<country>
+						<name> Argentina </name>
+						<continent>South America</continent>
+						<pop> 40.00 </pop>
+						<area> 1068302.00 </area>
+		</country>
+	  	<country>
+						<name> Armenia </name>
+						<continent>Asia</continent>
+						<pop> 3.00 </pop>
+						<area> 11506.00 </area>
+		</country>
+	  	<country>
+						<name> Australia </name>
+						<continent>Australia/Oceania</continent>
+						<pop> 22.00 </pop>
+						<area> 2967909.00 </area>
+		</country>
+	  	<country>
+						<name> Austria </name>
+						<continent>Europe</continent>
+						<pop> 8.00 </pop>
+						<area> 32383.00 </area>
+		</country>
+	  	<country>
+						<name> Azerbaijan </name>
+						<continent>Asia</continent>
+						<pop> 9.00 </pop>
+						<area> 33436.00 </area>
+		</country>
+	  	<country>
+						<name> Bahamas </name>
+						<continent>North America</continent>
+						<pop> 0.00 </pop>
+						<area> 5358.00 </area>
+		</country>
+	  	<country>
+						<name> Bahrain </name>
+						<continent>Asia</continent>
+						<pop> 1.00 </pop>
+						<area> 253.00 </area>
+		</country>
+	  	<country>
+						<name> Bangladesh </name>
+						<continent>Asia</continent>
+						<pop> 162.00 </pop>
+						<area> 55599.00 </area>
+		</country>
+	  	<country>
+						<name> Barbados </name>
+						<continent>North America</continent>
+						<pop> 0.00 </pop>
+						<area> 167.00 </area>
+		</country>
+	  	<country>
+						<name> Belarus </name>
+						<continent>Europe</continent>
+						<pop> 10.00 </pop>
+						<area> 80155.00 </area>
+		</country>
+	  	<country>
+						<name> Belgium </name>
+						<continent>Europe</continent>
+						<pop> 11.00 </pop>
+						<area> 11787.00 </area>
+		</country>
+	  	<country>
+						<name> Belize </name>
+						<continent>North America</continent>
+						<pop> 0.00 </pop>
+						<area> 8867.00 </area>
+		</country>
+	  	<country>
+						<name> Benin </name>
+						<continent>Africa</continent>
+						<pop> 9.00 </pop>
+						<area> 43484.00 </area>
+		</country>
+	  	<country>
+						<name> Bhutan </name>
+						<continent>Asia</continent>
+						<pop> 1.00 </pop>
+						<area> 14824.00 </area>
+		</country>
+	  	<country>
+						<name> Bolivia </name>
+						<continent>South America</continent>
+						<pop> 10.00 </pop>
+						<area> 424163.00 </area>
+		</country>
+	  	<country>
+						<name> Bosnia and Herzegovina </name>
+						<continent>Europe</continent>
+						<pop> 4.00 </pop>
+						<area> 19767.00 </area>
+		</country>
+	  	<country>
+						<name> Botswana </name>
+						<continent>Africa</continent>
+						<pop> 2.00 </pop>
+						<area> 224606.00 </area>
+		</country>
+	  	<country>
+						<name> Brazil </name>
+						<continent>South America</continent>
+						<pop> 192.00 </pop>
+						<area> 3287597.00 </area>
+		</country>
+	  	<country>
+						<name> Brunei Darussalam </name>
+						<continent>Asia</continent>
+						<pop> 0.00 </pop>
+						<area> 2226.00 </area>
+		</country>
+	  	<country>
+						<name> Bulgaria </name>
+						<continent>Europe</continent>
+						<pop> 8.00 </pop>
+						<area> 42823.00 </area>
+		</country>
+	  	<country>
+						<name> Burkina Faso </name>
+						<continent>Africa</continent>
+						<pop> 16.00 </pop>
+						<area> 105792.00 </area>
+		</country>
+	  	<country>
+						<name> Burundi </name>
+						<continent>Africa</continent>
+						<pop> 8.00 </pop>
+						<area> 10745.00 </area>
+		</country>
+	  	<country>
+						<name> Cambodia </name>
+						<continent>Asia</continent>
+						<pop> 13.00 </pop>
+						<area> 69898.00 </area>
+		</country>
+	  	<country>
+						<name> Cameroon </name>
+						<continent>Africa</continent>
+						<pop> 20.00 </pop>
+						<area> 183568.00 </area>
+		</country>
+	  	<country>
+						<name> Canada </name>
+						<continent>North America</continent>
+						<pop> 34.00 </pop>
+						<area> 3855000.00 </area>
+		</country>
+	  	<country>
+						<name> Cape Verde </name>
+						<continent>Africa</continent>
+						<pop> 1.00 </pop>
+						<area> 1557.00 </area>
+		</country>
+	  	<country>
+						<name> Central African Republic </name>
+						<continent>Africa</continent>
+						<pop> 4.00 </pop>
+						<area> 240534.00 </area>
+		</country>
+	  	<country>
+						<name> Chad </name>
+						<continent>Africa</continent>
+						<pop> 11.00 </pop>
+						<area> 495753.00 </area>
+		</country>
+	  	<country>
+						<name> Chile </name>
+						<continent>South America</continent>
+						<pop> 17.00 </pop>
+						<area> 292183.00 </area>
+		</country>
+	  	<country>
+						<name> China </name>
+						<continent>Asia</continent>
+						<pop> 1333.00 </pop>
+						<area> 3696100.00 </area>
+		</country>
+	  	<country>
+						<name> Colombia </name>
+						<continent>South America</continent>
+						<pop> 45.00 </pop>
+						<area> 440839.00 </area>
+		</country>
+	  	<country>
+						<name> Comoros </name>
+						<continent>Africa</continent>
+						<pop> 1.00 </pop>
+						<area> 863.00 </area>
+		</country>
+	  	<country>
+						<name> Costa Rica </name>
+						<continent>North America</continent>
+						<pop> 5.00 </pop>
+						<area> 19730.00 </area>
+		</country>
+	  	<country>
+						<name> Cote D'Ivoire </name>
+						<continent>Africa</continent>
+						<pop> 21.00 </pop>
+						<area> 124502.00 </area>
+		</country>
+	  	<country>
+						<name> Croatia </name>
+						<continent>Europe</continent>
+						<pop> 4.00 </pop>
+						<area> 21831.00 </area>
+		</country>
+	  	<country>
+						<name> Cuba </name>
+						<continent>North America</continent>
+						<pop> 11.00 </pop>
+						<area> 42803.00 </area>
+		</country>
+	  	<country>
+						<name> Cyprus </name>
+						<continent>Asia</continent>
+						<pop> 1.00 </pop>
+						<area> 3572.00 </area>
+		</country>
+	  	<country>
+						<name> Czech Republic </name>
+						<continent>Europe</continent>
+						<pop> 11.00 </pop>
+						<area> 30450.00 </area>
+		</country>
+	  	<country>
+						<name> Democratic People's Republic of Korea </name>
+						<continent>Asia</continent>
+						<pop> 23.00 </pop>
+						<area> 46528.00 </area>
+		</country>
+	  	<country>
+						<name> Democratic Republic of the Congo </name>
+						<continent>Africa</continent>
+						<pop> 66.00 </pop>
+						<area> 905355.00 </area>
+		</country>
+	  	<country>
+						<name> Denmark </name>
+						<continent>Europe</continent>
+						<pop> 6.00 </pop>
+						<area> 16640.00 </area>
+		</country>
+	  	<country>
+						<name> Djibouti </name>
+						<continent>Africa</continent>
+						<pop> 1.00 </pop>
+						<area> 8958.00 </area>
+		</country>
+	  	<country>
+						<name> Dominica </name>
+						<continent>North America</continent>
+						<pop> 0.00 </pop>
+						<area> 290.00 </area>
+		</country>
+	  	<country>
+						<name> Dominican Republic </name>
+						<continent>North America</continent>
+						<pop> 10.00 </pop>
+						<area> 18704.00 </area>
+		</country>
+	  	<country>
+						<name> Ecuador </name>
+						<continent>South America</continent>
+						<pop> 14.00 </pop>
+						<area> 98985.00 </area>
+		</country>
+	  	<country>
+						<name> Egypt </name>
+						<continent>Africa</continent>
+						<pop> 77.00 </pop>
+						<area> 387048.00 </area>
+		</country>
+	  	<country>
+						<name> El Salvador </name>
+						<continent>North America</continent>
+						<pop> 6.00 </pop>
+						<area> 8124.00 </area>
+		</country>
+	  	<country>
+						<name> Equatorial Guinea </name>
+						<continent>Africa</continent>
+						<pop> 1.00 </pop>
+						<area> 10828.00 </area>
+		</country>
+	  	<country>
+						<name> Eritrea </name>
+						<continent>Africa</continent>
+						<pop> 5.00 </pop>
+						<area> 45405.00 </area>
+		</country>
+	  	<country>
+						<name> Estonia </name>
+						<continent>Europe</continent>
+						<pop> 1.00 </pop>
+						<area> 17413.00 </area>
+		</country>
+	  	<country>
+						<name> Ethiopia </name>
+						<continent>Africa</continent>
+						<pop> 79.00 </pop>
+						<area> 426371.00 </area>
+		</country>
+	  	<country>
+						<name> Fiji </name>
+						<continent>Australia/Oceania</continent>
+						<pop> 1.00 </pop>
+						<area> 7056.00 </area>
+		</country>
+	  	<country>
+						<name> Finland </name>
+						<continent>Europe</continent>
+						<pop> 5.00 </pop>
+						<area> 130596.00 </area>
+		</country>
+	  	<country>
+						<name> France </name>
+						<continent>Europe</continent>
+						<pop> 65.00 </pop>
+						<area> 211209.00 </area>
+		</country>
+	  	<country>
+						<name> Gabon </name>
+						<continent>Africa</continent>
+						<pop> 2.00 </pop>
+						<area> 103347.00 </area>
+		</country>
+	  	<country>
+						<name> Gambia </name>
+						<continent>Africa</continent>
+						<pop> 2.00 </pop>
+						<area> 4007.00 </area>
+		</country>
+	  	<country>
+						<name> Georgia </name>
+						<continent>Asia</continent>
+						<pop> 4.00 </pop>
+						<area> 26916.00 </area>
+		</country>
+	  	<country>
+						<name> Germany </name>
+						<continent>Europe</continent>
+						<pop> 82.00 </pop>
+						<area> 137847.00 </area>
+		</country>
+	  	<country>
+						<name> Ghana </name>
+						<continent>Africa</continent>
+						<pop> 24.00 </pop>
+						<area> 92098.00 </area>
+		</country>
+	  	<country>
+						<name> Greece </name>
+						<continent>Europe</continent>
+						<pop> 11.00 </pop>
+						<area> 50944.00 </area>
+		</country>
+	  	<country>
+						<name> Grenada </name>
+						<continent>North America</continent>
+						<pop> 0.00 </pop>
+						<area> 132.00 </area>
+		</country>
+	  	<country>
+						<name> Guatemala </name>
+						<continent>North America</continent>
+						<pop> 14.00 </pop>
+						<area> 42042.00 </area>
+		</country>
+	  	<country>
+						<name> Guinea </name>
+						<continent>Africa</continent>
+						<pop> 10.00 </pop>
+						<area> 94926.00 </area>
+		</country>
+	  	<country>
+						<name> Guinea Bissau </name>
+						<continent>Africa</continent>
+						<pop> 2.00 </pop>
+						<area> 13948.00 </area>
+		</country>
+	  	<country>
+						<name> Guyana </name>
+						<continent>South America</continent>
+						<pop> 1.00 </pop>
+						<area> 83000.00 </area>
+		</country>
+	  	<country>
+						<name> Haiti </name>
+						<continent>North America</continent>
+						<pop> 10.00 </pop>
+						<area> 10714.00 </area>
+		</country>
+	  	<country>
+						<name> Honduras </name>
+						<continent>North America</continent>
+						<pop> 8.00 </pop>
+						<area> 43278.00 </area>
+		</country>
+	  	<country>
+						<name> Hungary </name>
+						<continent>Europe</continent>
+						<pop> 10.00 </pop>
+						<area> 35919.00 </area>
+		</country>
+	  	<country>
+						<name> Iceland </name>
+						<continent>Europe</continent>
+						<pop> 0.00 </pop>
+						<area> 39770.00 </area>
+		</country>
+	  	<country>
+						<name> India </name>
+						<continent>Asia</continent>
+						<pop> 1198.00 </pop>
+						<area> 1269210.00 </area>
+		</country>
+	  	<country>
+						<name> Indonesia </name>
+						<continent>Asia</continent>
+						<pop> 230.00 </pop>
+						<area> 735355.00 </area>
+		</country>
+	  	<country>
+						<name> Iran </name>
+						<continent>Asia</continent>
+						<pop> 74.00 </pop>
+						<area> 636372.00 </area>
+		</country>
+	  	<country>
+						<name> Iraq </name>
+						<continent>Asia</continent>
+						<pop> 31.00 </pop>
+						<area> 169234.00 </area>
+		</country>
+	  	<country>
+						<name> Ireland </name>
+						<continent>Europe</continent>
+						<pop> 4.00 </pop>
+						<area> 31520.00 </area>
+		</country>
+	  	<country>
+						<name> Israel </name>
+						<continent>Asia</continent>
+						<pop> 7.00 </pop>
+						<area> 8019.00 </area>
+		</country>
+	  	<country>
+						<name> Italy </name>
+						<continent>Europe</continent>
+						<pop> 60.00 </pop>
+						<area> 116346.00 </area>
+		</country>
+	  	<country>
+						<name> Jamaica </name>
+						<continent>North America</continent>
+						<pop> 3.00 </pop>
+						<area> 4444.00 </area>
+		</country>
+	  	<country>
+						<name> Japan </name>
+						<continent>Asia</continent>
+						<pop> 128.00 </pop>
+						<area> 145883.00 </area>
+		</country>
+	  	<country>
+						<name> Jordan </name>
+						<continent>Asia</continent>
+						<pop> 6.00 </pop>
+						<area> 45495.00 </area>
+		</country>
+	  	<country>
+						<name> Kazakhstan </name>
+						<continent>Asia</continent>
+						<pop> 16.00 </pop>
+						<area> 1052085.00 </area>
+		</country>
+	  	<country>
+						<name> Kenya </name>
+						<continent>Africa</continent>
+						<pop> 40.00 </pop>
+						<area> 224080.00 </area>
+		</country>
+	  	<country>
+						<name> Kiribati </name>
+						<continent>Australia/Oceania</continent>
+						<pop> 0.00 </pop>
+						<area> 280.00 </area>
+		</country>
+	  	<country>
+						<name> Kuwait </name>
+						<continent>Asia</continent>
+						<pop> 3.00 </pop>
+						<area> 6880.00 </area>
+		</country>
+	  	<country>
+						<name> Kyrgyzstan </name>
+						<continent>Asia</continent>
+						<pop> 6.00 </pop>
+						<area> 77181.00 </area>
+		</country>
+	  	<country>
+						<name> Lao People's Democratic Republic </name>
+						<continent>Asia</continent>
+						<pop> 7.00 </pop>
+						<area> 91429.00 </area>
+		</country>
+	  	<country>
+						<name> Latvia </name>
+						<continent>Europe</continent>
+						<pop> 2.00 </pop>
+						<area> 24938.00 </area>
+		</country>
+	  	<country>
+						<name> Lebanon </name>
+						<continent>Asia</continent>
+						<pop> 4.00 </pop>
+						<area> 4035.00 </area>
+		</country>
+	  	<country>
+						<name> Lesotho </name>
+						<continent>Africa</continent>
+						<pop> 2.00 </pop>
+						<area> 12727.00 </area>
+		</country>
+	  	<country>
+						<name> Liberia </name>
+						<continent>Africa</continent>
+						<pop> 4.00 </pop>
+						<area> 43000.00 </area>
+		</country>
+	  	<country>
+						<name> Libyan Arab Jamahiriya </name>
+						<continent>Africa</continent>
+						<pop> 6.00 </pop>
+						<area> 679359.00 </area>
+		</country>
+	  	<country>
+						<name> Liechtenstein </name>
+						<continent>Europe</continent>
+						<pop> 0.00 </pop>
+						<area> 62.00 </area>
+		</country>
+	  	<country>
+						<name> Lithuania </name>
+						<continent>Europe</continent>
+						<pop> 3.00 </pop>
+						<area> 25173.00 </area>
+		</country>
+	  	<country>
+						<name> Luxembourg </name>
+						<continent>Europe</continent>
+						<pop> 1.00 </pop>
+						<area> 998.00 </area>
+		</country>
+	  	<country>
+						<name> Madagascar </name>
+						<continent>Africa</continent>
+						<pop> 20.00 </pop>
+						<area> 226597.00 </area>
+		</country>
+	  	<country>
+						<name> Malawi </name>
+						<continent>Africa</continent>
+						<pop> 15.00 </pop>
+						<area> 45747.00 </area>
+		</country>
+	  	<country>
+						<name> Malaysia </name>
+						<continent>Asia</continent>
+						<pop> 28.00 </pop>
+						<area> 127355.00 </area>
+		</country>
+	  	<country>
+						<name> Maldives </name>
+						<continent>Asia</continent>
+						<pop> 0.00 </pop>
+						<area> 115.00 </area>
+		</country>
+	  	<country>
+						<name> Mali </name>
+						<continent>Africa</continent>
+						<pop> 13.00 </pop>
+						<area> 478839.00 </area>
+		</country>
+	  	<country>
+						<name> Malta </name>
+						<continent>Europe</continent>
+						<pop> 0.00 </pop>
+						<area> 121.00 </area>
+		</country>
+	  	<country>
+						<name> Marshall Islands </name>
+						<continent>Australia/Oceania</continent>
+						<pop> 0.00 </pop>
+						<area> 69.00 </area>
+		</country>
+	  	<country>
+						<name> Mauritania </name>
+						<continent>Africa</continent>
+						<pop> 3.00 </pop>
+						<area> 397954.00 </area>
+		</country>
+	  	<country>
+						<name> Mauritius </name>
+						<continent>Africa</continent>
+						<pop> 1.00 </pop>
+						<area> 787.00 </area>
+		</country>
+	  	<country>
+						<name> Mexico </name>
+						<continent>North America</continent>
+						<pop> 108.00 </pop>
+						<area> 761606.00 </area>
+		</country>
+	  	<country>
+						<name> Micronesia </name>
+						<continent>Australia/Oceania</continent>
+						<pop> 0.00 </pop>
+						<area> 271.00 </area>
+		</country>
+	  	<country>
+						<name> Monaco </name>
+						<continent>Europe</continent>
+						<pop> 0.00 </pop>
+						<area> 1.00 </area>
+		</country>
+	  	<country>
+						<name> Mongolia </name>
+						<continent>Asia</continent>
+						<pop> 3.00 </pop>
+						<area> 603909.00 </area>
+		</country>
+	  	<country>
+						<name> Montenegro </name>
+						<continent>Europe</continent>
+						<pop> 1.00 </pop>
+						<area> 5019.00 </area>
+		</country>
+	  	<country>
+						<name> Morocco </name>
+						<continent>Africa</continent>
+						<pop> 32.00 </pop>
+						<area> 172414.00 </area>
+		</country>
+	  	<country>
+						<name> Mozambique </name>
+						<continent>Africa</continent>
+						<pop> 23.00 </pop>
+						<area> 309496.00 </area>
+		</country>
+	  	<country>
+						<name> Myanmar </name>
+						<continent>Asia</continent>
+						<pop> 50.00 </pop>
+						<area> 261227.00 </area>
+		</country>
+	  	<country>
+						<name> Namibia </name>
+						<continent>Africa</continent>
+						<pop> 2.00 </pop>
+						<area> 318696.00 </area>
+		</country>
+	  	<country>
+						<name> Nauru </name>
+						<continent>Australia/Oceania</continent>
+						<pop> 0.00 </pop>
+						<area> 8.00 </area>
+		</country>
+	  	<country>
+						<name> Nepal </name>
+						<continent>Asia</continent>
+						<pop> 29.00 </pop>
+						<area> 56827.00 </area>
+		</country>
+	  	<country>
+						<name> Netherlands </name>
+						<continent>Europe</continent>
+						<pop> 17.00 </pop>
+						<area> 16033.00 </area>
+		</country>
+	  	<country>
+						<name> New Zealand </name>
+						<continent>Australia/Oceania</continent>
+						<pop> 4.00 </pop>
+						<area> 103738.00 </area>
+		</country>
+	  	<country>
+						<name> Nicaragua </name>
+						<continent>North America</continent>
+						<pop> 6.00 </pop>
+						<area> 50193.00 </area>
+		</country>
+	  	<country>
+						<name> Niger </name>
+						<continent>Africa</continent>
+						<pop> 15.00 </pop>
+						<area> 489678.00 </area>
+		</country>
+	  	<country>
+						<name> Nigeria </name>
+						<continent>Africa</continent>
+						<pop> 155.00 </pop>
+						<area> 356669.00 </area>
+		</country>
+	  	<country>
+						<name> Norway </name>
+						<continent>Europe</continent>
+						<pop> 5.00 </pop>
+						<area> 148746.00 </area>
+		</country>
+	  	<country>
+						<name> Oman </name>
+						<continent>Asia</continent>
+						<pop> 3.00 </pop>
+						<area> 119498.00 </area>
+		</country>
+	  	<country>
+						<name> Pakistan </name>
+						<continent>Asia</continent>
+						<pop> 167.00 </pop>
+						<area> 310403.00 </area>
+		</country>
+	  	<country>
+						<name> Palau </name>
+						<continent>Australia/Oceania</continent>
+						<pop> 0.00 </pop>
+						<area> 177.00 </area>
+		</country>
+	  	<country>
+						<name> Panama </name>
+						<continent>North America</continent>
+						<pop> 4.00 </pop>
+						<area> 29157.00 </area>
+		</country>
+	  	<country>
+						<name> Papua New Guinea </name>
+						<continent>Australia/Oceania</continent>
+						<pop> 7.00 </pop>
+						<area> 178703.00 </area>
+		</country>
+	  	<country>
+						<name> Paraguay </name>
+						<continent>South America</continent>
+						<pop> 6.00 </pop>
+						<area> 157048.00 </area>
+		</country>
+	  	<country>
+						<name> Peru </name>
+						<continent>South America</continent>
+						<pop> 29.00 </pop>
+						<area> 496226.00 </area>
+		</country>
+	  	<country>
+						<name> Philippines </name>
+						<continent>Asia</continent>
+						<pop> 92.00 </pop>
+						<area> 115831.00 </area>
+		</country>
+	  	<country>
+						<name> Poland </name>
+						<continent>Europe</continent>
+						<pop> 38.00 </pop>
+						<area> 120726.00 </area>
+		</country>
+	  	<country>
+						<name> Portugal </name>
+						<continent>Europe</continent>
+						<pop> 11.00 </pop>
+						<area> 35645.00 </area>
+		</country>
+	  	<country>
+						<name> Qatar </name>
+						<continent>Asia</continent>
+						<pop> 1.00 </pop>
+						<area> 4416.00 </area>
+		</country>
+	  	<country>
+						<name> Republic of Korea </name>
+						<continent>Asia</continent>
+						<pop> 48.00 </pop>
+						<area> 38622.00 </area>
+		</country>
+	  	<country>
+						<name> Republic of Moldova </name>
+						<continent>Europe</continent>
+						<pop> 4.00 </pop>
+						<area> 13067.00 </area>
+		</country>
+	  	<country>
+						<name> Republic of the Congo </name>
+						<continent>Africa</continent>
+						<pop> 4.00 </pop>
+						<area> 132047.00 </area>
+		</country>
+	  	<country>
+						<name> Romania </name>
+						<continent>Europe</continent>
+						<pop> 22.00 </pop>
+						<area> 92043.00 </area>
+		</country>
+	  	<country>
+						<name> Russian Federation </name>
+						<continent>Europe</continent>
+						<pop> 142.00 </pop>
+						<area> 6592800.00 </area>
+		</country>
+	  	<country>
+						<name> Rwanda </name>
+						<continent>Africa</continent>
+						<pop> 10.00 </pop>
+						<area> 10169.00 </area>
+		</country>
+	  	<country>
+						<name> Saint Kitts and Nevis </name>
+						<continent>North America</continent>
+						<pop> 0.00 </pop>
+						<area> 101.00 </area>
+		</country>
+	  	<country>
+						<name> Saint Lucia </name>
+						<continent>North America</continent>
+						<pop> 0.00 </pop>
+						<area> 239.00 </area>
+		</country>
+	  	<country>
+						<name> Saint Vincent and the Grenadines </name>
+						<continent>North America</continent>
+						<pop> 0.00 </pop>
+						<area> 150.00 </area>
+		</country>
+	  	<country>
+						<name> Samoa </name>
+						<continent>Australia/Oceania</continent>
+						<pop> 0.00 </pop>
+						<area> 1093.00 </area>
+		</country>
+	  	<country>
+						<name> San Marino </name>
+						<continent>Europe</continent>
+						<pop> 0.00 </pop>
+						<area> 24.00 </area>
+		</country>
+	  	<country>
+						<name> Sao Tome and Principe </name>
+						<continent>Africa</continent>
+						<pop> 0.00 </pop>
+						<area> 372.00 </area>
+		</country>
+	  	<country>
+						<name> Saudi Arabia </name>
+						<continent>Asia</continent>
+						<pop> 26.00 </pop>
+						<area> 829996.00 </area>
+		</country>
+	  	<country>
+						<name> Senegal </name>
+						<continent>Africa</continent>
+						<pop> 13.00 </pop>
+						<area> 76000.00 </area>
+		</country>
+	  	<country>
+						<name> Serbia </name>
+						<continent>Europe</continent>
+						<pop> 10.00 </pop>
+						<area> 34116.00 </area>
+		</country>
+	  	<country>
+						<name> Seychelles </name>
+						<continent>Africa</continent>
+						<pop> 0.00 </pop>
+						<area> 174.00 </area>
+		</country>
+	  	<country>
+						<name> Sierra Leone </name>
+						<continent>Africa</continent>
+						<pop> 6.00 </pop>
+						<area> 27699.00 </area>
+		</country>
+	  	<country>
+						<name> Singapore </name>
+						<continent>Asia</continent>
+						<pop> 5.00 </pop>
+						<area> 274.00 </area>
+		</country>
+	  	<country>
+						<name> Slovakia </name>
+						<continent>Europe</continent>
+						<pop> 5.00 </pop>
+						<area> 18932.00 </area>
+		</country>
+	  	<country>
+						<name> Slovenia </name>
+						<continent>Europe</continent>
+						<pop> 2.00 </pop>
+						<area> 7827.00 </area>
+		</country>
+	  	<country>
+						<name> Solomon Islands </name>
+						<continent>Australia/Oceania</continent>
+						<pop> 1.00 </pop>
+						<area> 43.00 </area>
+		</country>
+	  	<country>
+						<name> Somalia </name>
+						<continent>Africa</continent>
+						<pop> 9.00 </pop>
+						<area> 246201.00 </area>
+		</country>
+	  	<country>
+						<name> South Africa </name>
+						<continent>Africa</continent>
+						<pop> 49.00 </pop>
+						<area> 471443.00 </area>
+		</country>
+	  	<country>
+						<name> South Sudan </name>
+						<continent>Africa</continent>
+						<pop> 8.00 </pop>
+						<area> 239285.00 </area>
+		</country>
+	  	<country>
+						<name> Spain </name>
+						<continent>Europe</continent>
+						<pop> 45.00 </pop>
+						<area> 195364.00 </area>
+		</country>
+	  	<country>
+						<name> Sri Lanka </name>
+						<continent>Asia</continent>
+						<pop> 20.00 </pop>
+						<area> 25332.00 </area>
+		</country>
+	  	<country>
+						<name> Sudan </name>
+						<continent>Africa</continent>
+						<pop> 42.00 </pop>
+						<area> 967495.00 </area>
+		</country>
+	  	<country>
+						<name> Suriname </name>
+						<continent>South America</continent>
+						<pop> 1.00 </pop>
+						<area> 63251.00 </area>
+		</country>
+	  	<country>
+						<name> Swaziland </name>
+						<continent>Africa</continent>
+						<pop> 1.00 </pop>
+						<area> 6704.00 </area>
+		</country>
+	  	<country>
+						<name> Sweden </name>
+						<continent>Europe</continent>
+						<pop> 9.00 </pop>
+						<area> 173732.00 </area>
+		</country>
+	  	<country>
+						<name> Switzerland </name>
+						<continent>Europe</continent>
+						<pop> 8.00 </pop>
+						<area> 15940.00 </area>
+		</country>
+	  	<country>
+						<name> Syrian Arab Republic </name>
+						<continent>Asia</continent>
+						<pop> 22.00 </pop>
+						<area> 71479.00 </area>
+		</country>
+	  	<country>
+						<name> Tajikistan </name>
+						<continent>Asia</continent>
+						<pop> 7.00 </pop>
+						<area> 55251.00 </area>
+		</country>
+	  	<country>
+						<name> Thailand </name>
+						<continent>Asia</continent>
+						<pop> 63.00 </pop>
+						<area> 198115.00 </area>
+		</country>
+	  	<country>
+						<name> The former Yugoslav Republic of Macedonia </name>
+						<continent>Europe</continent>
+						<pop> 2.00 </pop>
+						<area> 205.00 </area>
+		</country>
+	  	<country>
+						<name> Timor-Leste </name>
+						<continent>Asia</continent>
+						<pop> 1.00 </pop>
+						<area> 5743.00 </area>
+		</country>
+	  	<country>
+						<name> Togo </name>
+						<continent>Africa</continent>
+						<pop> 7.00 </pop>
+						<area> 21925.00 </area>
+		</country>
+	  	<country>
+						<name> Tonga </name>
+						<continent>Australia/Oceania</continent>
+						<pop> 0.00 </pop>
+						<area> 289.00 </area>
+		</country>
+	  	<country>
+						<name> Trinidad and Tobago </name>
+						<continent>North America</continent>
+						<pop> 1.00 </pop>
+						<area> 1978.00 </area>
+		</country>
+	  	<country>
+						<name> Tunisia </name>
+						<continent>Africa</continent>
+						<pop> 10.00 </pop>
+						<area> 63170.00 </area>
+		</country>
+	  	<country>
+						<name> Turkey </name>
+						<continent>Asia</continent>
+						<pop> 72.00 </pop>
+						<area> 302535.00 </area>
+		</country>
+	  	<country>
+						<name> Turkmenistan </name>
+						<continent>Asia</continent>
+						<pop> 5.00 </pop>
+						<area> 188456.00 </area>
+		</country>
+	  	<country>
+						<name> Tuvalu </name>
+						<continent>Australia/Oceania</continent>
+						<pop> 0.00 </pop>
+						<area> 10.00 </area>
+		</country>
+	  	<country>
+						<name> Uganda </name>
+						<continent>Africa</continent>
+						<pop> 33.00 </pop>
+						<area> 91136.00 </area>
+		</country>
+	  	<country>
+						<name> Ukraine </name>
+						<continent>Europe</continent>
+						<pop> 46.00 </pop>
+						<area> 233090.00 </area>
+		</country>
+	  	<country>
+						<name> United Arab Emirates </name>
+						<continent>Asia</continent>
+						<pop> 5.00 </pop>
+						<area> 32278.00 </area>
+		</country>
+	  	<country>
+						<name> United Kingdom </name>
+						<continent>Europe</continent>
+						<pop> 62.00 </pop>
+						<area> 94526.00 </area>
+		</country>
+	  	<country>
+						<name> United Republic of Tanzania </name>
+						<continent>Africa</continent>
+						<pop> 40.00 </pop>
+						<area> 364898.00 </area>
+		</country>
+	  	<country>
+						<name> United States </name>
+						<continent>North America</continent>
+						<pop> 307.00 </pop>
+						<area> 3794066.00 </area>
+		</country>
+	  	<country>
+						<name> Uruguay </name>
+						<continent>South America</continent>
+						<pop> 3.00 </pop>
+						<area> 68037.00 </area>
+		</country>
+	  	<country>
+						<name> Uzbekistan </name>
+						<continent>Asia</continent>
+						<pop> 28.00 </pop>
+						<area> 172742.00 </area>
+		</country>
+	  	<country>
+						<name> Vanuatu </name>
+						<continent>Australia/Oceania</continent>
+						<pop> 0.00 </pop>
+						<area> 4706.00 </area>
+		</country>
+	  	<country>
+						<name> Venezuela </name>
+						<continent>South America</continent>
+						<pop> 28.00 </pop>
+						<area> 353841.00 </area>
+		</country>
+	  	<country>
+						<name> Vietnam </name>
+						<continent>Asia</continent>
+						<pop> 88.00 </pop>
+						<area> 128527.00 </area>
+		</country>
+	  	<country>
+						<name> Yemen </name>
+						<continent>Asia</continent>
+						<pop> 24.00 </pop>
+						<area> 203849.00 </area>
+		</country>
+	  	<country>
+						<name> Zambia </name>
+						<continent>Africa</continent>
+						<pop> 13.00 </pop>
+						<area> 290587.00 </area>
+		</country>
+	  	<country>
+						<name> Zimbabwe </name>
+						<continent>Africa</continent>
+						<pop> 13.00 </pop>
+						<area> 150871.00 </area>
+		</country>
+	  </un-data>
