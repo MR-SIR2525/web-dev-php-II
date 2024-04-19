@@ -5,41 +5,43 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function handleInput() {
-    // Determine which radio button is selected
+    
     let continents = document.getElementsByName("continent");
     let foundChecked = false;
     let results = document.getElementById("results");
     let output = null;
+    let i = 0;
 
-    for (let i = 0; i < continents.length; i++) 
+    // Determine which radio button is selected
+    for (; i < continents.length; i++) 
     {
         if (continents[i].checked) 
         {
             foundChecked = true;
-            output = loadAndFilterXML(continents[i].value);
+            output = loadAndFilterXML(continents[i].value); //get the data from XML file
             break;
         }
     }
-    if (!foundChecked)
-    {
-        let warning = document.createElement("p");
-        warning.className = "warning-text w3-medium";
-        warning.innerHTML = "Please select a continent";
 
-        results.innerHTML = warning.outerHTML;
-        return;
-    }
-    else if (!output)
+    if (!foundChecked || output.length === 0)  //didn't find any matches the file
     {
-        let warning = document.createElement("p");
-        warning.className = "warning-text w3-medium";
-        warning.innerHTML = "Please select a continent";
+        let feedback = document.createElement("p");
+        feedback.className = "warning-text w3-medium";
+        feedback.innerHTML = "No results found for " + continents[i].value + ".";
+
+        results.innerHTML = feedback.outerHTML;
+    }
+    else if (output === false)  //there was an error
+    {
+        let feedback = document.createElement("p");
+        feedback.className = "warning-text w3-medium";
+        feedback.innerHTML = "Error getting results from the file.";
     }
 
 }
 
 
-// Load and filter the XML content, returns output in an array, or false if error
+// Load and filter the XML content. Returns array of matching countries or false if error
 function loadAndFilterXML(selectedContinent) {
     // Create a new XMLHttpRequest object
     let xhr = new XMLHttpRequest();
@@ -56,6 +58,7 @@ function loadAndFilterXML(selectedContinent) {
 
             for (let i = 0; i < countries.length; i++) 
             {
+                // countries[i]'s continent
                 let continent = countries[i].getElementsByTagName("continent")[0].textContent;
 
                 if (continent === selectedContinent) 
