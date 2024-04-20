@@ -188,6 +188,85 @@ input[type=submit]:hover {
 .width-25 {     width: 25%;     }
 
 /**************** Tables ******************/
+/* Tables > cell padding */
+.table-padding-3px td,
+.table-padding-3px th {
+    padding: 3px;
+}
+.table-padding-5px td,
+.table-padding-5px th {
+    padding: 5px;
+}
+
+/* Tables > cell alignment */
+/* .table-header-ALIGNMENT */
+.table-header-left th {
+    text-align: left;
+}
+.table-header-center th {
+    text-align: center;
+}
+.table-header-right th {
+    text-align: right;
+}
+
+/* .table-items-ALIGNMENT */
+.table-items-left td,
+.table-td-left td {
+    text-align: left;
+}
+.table-items-center td,
+.table-td-center td {
+    text-align: center;
+}
+.table-items-right td,
+.table-td-right td {
+    text-align: right;
+}
+
+/* .table-nthtd-left */
+.table-1st-td-left > td:first-child {
+    text-align: left;
+}
+.table-2nd-td-left > td:nth-child(2) {
+    text-align: left;
+}
+.table-3rd-td-left > td:nth-child(3) {
+    text-align: left;
+}
+.table-4th-td-left > td:nth-child(4) {
+    text-align: left;
+}
+
+/* .table-nthtd-center */
+.table-1st-td-center > td:first-child {
+    text-align: center;
+}
+.table-2nd-td-center > td:nth-child(2) {
+    text-align: center;
+}
+.table-3rd-td-center > td:nth-child(3) {
+    text-align: center;
+}
+.table-4th-td-center > td:nth-child(4) {
+    text-align: center;
+}
+
+/* .table-nthtd-right */
+.table-1st-td-right > td:first-child {
+    text-align: right;
+}
+.table-2nd-td-right > td:nth-child(2) {
+    text-align: right;
+}
+.table-3rd-td-right > td:nth-child(3) {
+    text-align: right;
+}
+.table-4th-td-right > td:nth-child(4) {
+    text-align: right;
+}
+
+/* Tables > templates */
 .simpletable {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -213,7 +292,7 @@ input[type=submit]:hover {
 .bold-borders-table td, 
 .bold-borders-table th
 {
-    border: 3px solid black;
+    border: 3px solid #111111;
     /* padding: 8px; */
 }
 
@@ -233,47 +312,10 @@ input[type=submit]:hover {
 .black-thead th,
 .solid-thead th,
 .dark-background {
-    background-color: #242424;
+    background-color: #111111;
     color: #eeeeee
 }
 
-/* Table item things */
-.table-items-centered td,
-.table-items-centered th,
-.table-items-center td,
-.table-items-center th {
-    text-align: center
-}
-.table-items-right td,
-.table-items-right th {
-    text-align: right
-}
-.table-items-left td,
-.table-items-left th {
-    text-align: left
-}
-
-.table-padding-1 td,
-.table-padding-1 th {
-    padding: 0.25rem
-}
-
-.table-padding-3 td,
-.table-padding-3 th {
-    padding: 0.5rem
-}
-.table-padding-1 td,
-.table-padding-1 th {
-    padding: 1rem
-}
-.table-padding-3 td,
-.table-padding-3 th {
-    padding: 2rem
-}
-.table-padding-3 td,
-.table-padding-3 th {
-    padding: 3rem
-}
 
 /* Tables > color stuff */
 /* - Green striped */
