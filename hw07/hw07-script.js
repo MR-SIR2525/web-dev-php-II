@@ -40,7 +40,7 @@ function showFile(xhr, selectedContinent)
             let countries = xhr.responseXML.getElementsByTagName("country");
 
             let table = document.createElement("table");
-            table.className = "bold-borders-table black-thead table-padding-3px table-th-center table-td-right table-1st-td-left";
+            table.className = "bold-borders-table black-thead table-padding-4px table-th-center table-td-right table-1st-td-left";
             table.innerHTML = "<tr><th>Country</th><th>Population</th><th>Area</th></tr>";
 
             let found_a_match = false;
