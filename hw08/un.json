@@ -1,0 +1,1162 @@
+{
+    "countries": [
+        {
+            "name": "Afghanistan",
+            "continent": "Asia",
+            "pop": "28.00",
+            "area": "251772.00"
+        },
+        {
+            "name": "Albania",
+            "continent": "Europe",
+            "pop": "3.00",
+            "area": "11100.00"
+        },
+        {
+            "name": "Algeria",
+            "continent": "Africa",
+            "pop": "35.00",
+            "area": "919595.00"
+        },
+        {
+            "name": "Andorra",
+            "continent": "Asia",
+            "pop": "20.00",
+            "area": "181.00"
+        },
+        {
+            "name": "Angola",
+            "continent": "Africa",
+            "pop": "19.00",
+            "area": "481354.00"
+        },
+        {
+            "name": "Antigua and Barbuda",
+            "continent": "North America",
+            "pop": "0.00",
+            "area": "108.00"
+        },
+        {
+            "name": "Argentina",
+            "continent": "South America",
+            "pop": "40.00",
+            "area": "1068302.00"
+        },
+        {
+            "name": "Armenia",
+            "continent": "Asia",
+            "pop": "3.00",
+            "area": "11506.00"
+        },
+        {
+            "name": "Australia",
+            "continent": "Australia/Oceania",
+            "pop": "22.00",
+            "area": "2967909.00"
+        },
+        {
+            "name": "Austria",
+            "continent": "Europe",
+            "pop": "8.00",
+            "area": "32383.00"
+        },
+        {
+            "name": "Azerbaijan",
+            "continent": "Asia",
+            "pop": "9.00",
+            "area": "33436.00"
+        },
+        {
+            "name": "Bahamas",
+            "continent": "North America",
+            "pop": "0.00",
+            "area": "5358.00"
+        },
+        {
+            "name": "Bahrain",
+            "continent": "Asia",
+            "pop": "1.00",
+            "area": "253.00"
+        },
+        {
+            "name": "Bangladesh",
+            "continent": "Asia",
+            "pop": "162.00",
+            "area": "55599.00"
+        },
+        {
+            "name": "Barbados",
+            "continent": "North America",
+            "pop": "0.00",
+            "area": "167.00"
+        },
+        {
+            "name": "Belarus",
+            "continent": "Europe",
+            "pop": "10.00",
+            "area": "80155.00"
+        },
+        {
+            "name": "Belgium",
+            "continent": "Europe",
+            "pop": "11.00",
+            "area": "11787.00"
+        },
+        {
+            "name": "Belize",
+            "continent": "North America",
+            "pop": "0.00",
+            "area": "8867.00"
+        },
+        {
+            "name": "Benin",
+            "continent": "Africa",
+            "pop": "9.00",
+            "area": "43484.00"
+        },
+        {
+            "name": "Bhutan",
+            "continent": "Asia",
+            "pop": "1.00",
+            "area": "14824.00"
+        },
+        {
+            "name": "Bolivia",
+            "continent": "South America",
+            "pop": "10.00",
+            "area": "424163.00"
+        },
+        {
+            "name": "Bosnia and Herzegovina",
+            "continent": "Europe",
+            "pop": "4.00",
+            "area": "19767.00"
+        },
+        {
+            "name": "Botswana",
+            "continent": "Africa",
+            "pop": "2.00",
+            "area": "224606.00"
+        },
+        {
+            "name": "Brazil",
+            "continent": "South America",
+            "pop": "192.00",
+            "area": "3287597.00"
+        },
+        {
+            "name": "Brunei Darussalam",
+            "continent": "Asia",
+            "pop": "0.00",
+            "area": "2226.00"
+        },
+        {
+            "name": "Bulgaria",
+            "continent": "Europe",
+            "pop": "8.00",
+            "area": "42823.00"
+        },
+        {
+            "name": "Burkina Faso",
+            "continent": "Africa",
+            "pop": "16.00",
+            "area": "105792.00"
+        },
+        {
+            "name": "Burundi",
+            "continent": "Africa",
+            "pop": "8.00",
+            "area": "10745.00"
+        },
+        {
+            "name": "Cambodia",
+            "continent": "Asia",
+            "pop": "13.00",
+            "area": "69898.00"
+        },
+        {
+            "name": "Cameroon",
+            "continent": "Africa",
+            "pop": "20.00",
+            "area": "183568.00"
+        },
+        {
+            "name": "Canada",
+            "continent": "North America",
+            "pop": "34.00",
+            "area": "3855000.00"
+        },
+        {
+            "name": "Cape Verde",
+            "continent": "Africa",
+            "pop": "1.00",
+            "area": "1557.00"
+        },
+        {
+            "name": "Central African Republic",
+            "continent": "Africa",
+            "pop": "4.00",
+            "area": "240534.00"
+        },
+        {
+            "name": "Chad",
+            "continent": "Africa",
+            "pop": "11.00",
+            "area": "495753.00"
+        },
+        {
+            "name": "Chile",
+            "continent": "South America",
+            "pop": "17.00",
+            "area": "292183.00"
+        },
+        {
+            "name": "China",
+            "continent": "Asia",
+            "pop": "1333.00",
+            "area": "3696100.00"
+        },
+        {
+            "name": "Colombia",
+            "continent": "South America",
+            "pop": "45.00",
+            "area": "440839.00"
+        },
+        {
+            "name": "Comoros",
+            "continent": "Africa",
+            "pop": "1.00",
+            "area": "863.00"
+        },
+        {
+            "name": "Costa Rica",
+            "continent": "North America",
+            "pop": "5.00",
+            "area": "19730.00"
+        },
+        {
+            "name": "Cote D'Ivoire",
+            "continent": "Africa",
+            "pop": "21.00",
+            "area": "124502.00"
+        },
+        {
+            "name": "Croatia",
+            "continent": "Europe",
+            "pop": "4.00",
+            "area": "21831.00"
+        },
+        {
+            "name": "Cuba",
+            "continent": "North America",
+            "pop": "11.00",
+            "area": "42803.00"
+        },
+        {
+            "name": "Cyprus",
+            "continent": "Asia",
+            "pop": "1.00",
+            "area": "3572.00"
+        },
+        {
+            "name": "Czech Republic",
+            "continent": "Europe",
+            "pop": "11.00",
+            "area": "30450.00"
+        },
+        {
+            "name": "Democratic People's Republic of Korea",
+            "continent": "Asia",
+            "pop": "23.00",
+            "area": "46528.00"
+        },
+        {
+            "name": "Democratic Republic of the Congo",
+            "continent": "Africa",
+            "pop": "66.00",
+            "area": "905355.00"
+        },
+        {
+            "name": "Denmark",
+            "continent": "Europe",
+            "pop": "6.00",
+            "area": "16640.00"
+        },
+        {
+            "name": "Djibouti",
+            "continent": "Africa",
+            "pop": "1.00",
+            "area": "8958.00"
+        },
+        {
+            "name": "Dominica",
+            "continent": "North America",
+            "pop": "0.00",
+            "area": "290.00"
+        },
+        {
+            "name": "Dominican Republic",
+            "continent": "North America",
+            "pop": "10.00",
+            "area": "18704.00"
+        },
+        {
+            "name": "Ecuador",
+            "continent": "South America",
+            "pop": "14.00",
+            "area": "98985.00"
+        },
+        {
+            "name": "Egypt",
+            "continent": "Africa",
+            "pop": "77.00",
+            "area": "387048.00"
+        },
+        {
+            "name": "El Salvador",
+            "continent": "North America",
+            "pop": "6.00",
+            "area": "8124.00"
+        },
+        {
+            "name": "Equatorial Guinea",
+            "continent": "Africa",
+            "pop": "1.00",
+            "area": "10828.00"
+        },
+        {
+            "name": "Eritrea",
+            "continent": "Africa",
+            "pop": "5.00",
+            "area": "45405.00"
+        },
+        {
+            "name": "Estonia",
+            "continent": "Europe",
+            "pop": "1.00",
+            "area": "17413.00"
+        },
+        {
+            "name": "Ethiopia",
+            "continent": "Africa",
+            "pop": "79.00",
+            "area": "426371.00"
+        },
+        {
+            "name": "Fiji",
+            "continent": "Australia/Oceania",
+            "pop": "1.00",
+            "area": "7056.00"
+        },
+        {
+            "name": "Finland",
+            "continent": "Europe",
+            "pop": "5.00",
+            "area": "130596.00"
+        },
+        {
+            "name": "France",
+            "continent": "Europe",
+            "pop": "65.00",
+            "area": "211209.00"
+        },
+        {
+            "name": "Gabon",
+            "continent": "Africa",
+            "pop": "2.00",
+            "area": "103347.00"
+        },
+        {
+            "name": "Gambia",
+            "continent": "Africa",
+            "pop": "2.00",
+            "area": "4007.00"
+        },
+        {
+            "name": "Georgia",
+            "continent": "Asia",
+            "pop": "4.00",
+            "area": "26916.00"
+        },
+        {
+            "name": "Germany",
+            "continent": "Europe",
+            "pop": "82.00",
+            "area": "137847.00"
+        },
+        {
+            "name": "Ghana",
+            "continent": "Africa",
+            "pop": "24.00",
+            "area": "92098.00"
+        },
+        {
+            "name": "Greece",
+            "continent": "Europe",
+            "pop": "11.00",
+            "area": "50944.00"
+        },
+        {
+            "name": "Grenada",
+            "continent": "North America",
+            "pop": "0.00",
+            "area": "132.00"
+        },
+        {
+            "name": "Guatemala",
+            "continent": "North America",
+            "pop": "14.00",
+            "area": "42042.00"
+        },
+        {
+            "name": "Guinea",
+            "continent": "Africa",
+            "pop": "10.00",
+            "area": "94926.00"
+        },
+        {
+            "name": "Guinea Bissau",
+            "continent": "Africa",
+            "pop": "2.00",
+            "area": "13948.00"
+        },
+        {
+            "name": "Guyana",
+            "continent": "South America",
+            "pop": "1.00",
+            "area": "83000.00"
+        },
+        {
+            "name": "Haiti",
+            "continent": "North America",
+            "pop": "10.00",
+            "area": "10714.00"
+        },
+        {
+            "name": "Honduras",
+            "continent": "North America",
+            "pop": "8.00",
+            "area": "43278.00"
+        },
+        {
+            "name": "Hungary",
+            "continent": "Europe",
+            "pop": "10.00",
+            "area": "35919.00"
+        },
+        {
+            "name": "Iceland",
+            "continent": "Europe",
+            "pop": "0.00",
+            "area": "39770.00"
+        },
+        {
+            "name": "India",
+            "continent": "Asia",
+            "pop": "1198.00",
+            "area": "1269210.00"
+        },
+        {
+            "name": "Indonesia",
+            "continent": "Asia",
+            "pop": "230.00",
+            "area": "735355.00"
+        },
+        {
+            "name": "Iran",
+            "continent": "Asia",
+            "pop": "74.00",
+            "area": "636372.00"
+        },
+        {
+            "name": "Iraq",
+            "continent": "Asia",
+            "pop": "31.00",
+            "area": "169234.00"
+        },
+        {
+            "name": "Ireland",
+            "continent": "Europe",
+            "pop": "4.00",
+            "area": "31520.00"
+        },
+        {
+            "name": "Israel",
+            "continent": "Asia",
+            "pop": "7.00",
+            "area": "8019.00"
+        },
+        {
+            "name": "Italy",
+            "continent": "Europe",
+            "pop": "60.00",
+            "area": "116346.00"
+        },
+        {
+            "name": "Jamaica",
+            "continent": "North America",
+            "pop": "3.00",
+            "area": "4444.00"
+        },
+        {
+            "name": "Japan",
+            "continent": "Asia",
+            "pop": "128.00",
+            "area": "145883.00"
+        },
+        {
+            "name": "Jordan",
+            "continent": "Asia",
+            "pop": "6.00",
+            "area": "45495.00"
+        },
+        {
+            "name": "Kazakhstan",
+            "continent": "Asia",
+            "pop": "16.00",
+            "area": "1052085.00"
+        },
+        {
+            "name": "Kenya",
+            "continent": "Africa",
+            "pop": "40.00",
+            "area": "224080.00"
+        },
+        {
+            "name": "Kiribati",
+            "continent": "Australia/Oceania",
+            "pop": "0.00",
+            "area": "280.00"
+        },
+        {
+            "name": "Kuwait",
+            "continent": "Asia",
+            "pop": "3.00",
+            "area": "6880.00"
+        },
+        {
+            "name": "Kyrgyzstan",
+            "continent": "Asia",
+            "pop": "6.00",
+            "area": "77181.00"
+        },
+        {
+            "name": "Lao People's Democratic Republic",
+            "continent": "Asia",
+            "pop": "7.00",
+            "area": "91429.00"
+        },
+        {
+            "name": "Latvia",
+            "continent": "Europe",
+            "pop": "2.00",
+            "area": "24938.00"
+        },
+        {
+            "name": "Lebanon",
+            "continent": "Asia",
+            "pop": "4.00",
+            "area": "4035.00"
+        },
+        {
+            "name": "Lesotho",
+            "continent": "Africa",
+            "pop": "2.00",
+            "area": "12727.00"
+        },
+        {
+            "name": "Liberia",
+            "continent": "Africa",
+            "pop": "4.00",
+            "area": "43000.00"
+        },
+        {
+            "name": "Libyan Arab Jamahiriya",
+            "continent": "Africa",
+            "pop": "6.00",
+            "area": "679359.00"
+        },
+        {
+            "name": "Liechtenstein",
+            "continent": "Europe",
+            "pop": "0.00",
+            "area": "62.00"
+        },
+        {
+            "name": "Lithuania",
+            "continent": "Europe",
+            "pop": "3.00",
+            "area": "25173.00"
+        },
+        {
+            "name": "Luxembourg",
+            "continent": "Europe",
+            "pop": "1.00",
+            "area": "998.00"
+        },
+        {
+            "name": "Madagascar",
+            "continent": "Africa",
+            "pop": "20.00",
+            "area": "226597.00"
+        },
+        {
+            "name": "Malawi",
+            "continent": "Africa",
+            "pop": "15.00",
+            "area": "45747.00"
+        },
+        {
+            "name": "Malaysia",
+            "continent": "Asia",
+            "pop": "28.00",
+            "area": "127355.00"
+        },
+        {
+            "name": "Maldives",
+            "continent": "Asia",
+            "pop": "0.00",
+            "area": "115.00"
+        },
+        {
+            "name": "Mali",
+            "continent": "Africa",
+            "pop": "13.00",
+            "area": "478839.00"
+        },
+        {
+            "name": "Malta",
+            "continent": "Europe",
+            "pop": "0.00",
+            "area": "121.00"
+        },
+        {
+            "name": "Marshall Islands",
+            "continent": "Australia/Oceania",
+            "pop": "0.00",
+            "area": "69.00"
+        },
+        {
+            "name": "Mauritania",
+            "continent": "Africa",
+            "pop": "3.00",
+            "area": "397954.00"
+        },
+        {
+            "name": "Mauritius",
+            "continent": "Africa",
+            "pop": "1.00",
+            "area": "787.00"
+        },
+        {
+            "name": "Mexico",
+            "continent": "North America",
+            "pop": "108.00",
+            "area": "761606.00"
+        },
+        {
+            "name": "Micronesia",
+            "continent": "Australia/Oceania",
+            "pop": "0.00",
+            "area": "271.00"
+        },
+        {
+            "name": "Monaco",
+            "continent": "Europe",
+            "pop": "0.00",
+            "area": "1.00"
+        },
+        {
+            "name": "Mongolia",
+            "continent": "Asia",
+            "pop": "3.00",
+            "area": "603909.00"
+        },
+        {
+            "name": "Montenegro",
+            "continent": "Europe",
+            "pop": "1.00",
+            "area": "5019.00"
+        },
+        {
+            "name": "Morocco",
+            "continent": "Africa",
+            "pop": "32.00",
+            "area": "172414.00"
+        },
+        {
+            "name": "Mozambique",
+            "continent": "Africa",
+            "pop": "23.00",
+            "area": "309496.00"
+        },
+        {
+            "name": "Myanmar",
+            "continent": "Asia",
+            "pop": "50.00",
+            "area": "261227.00"
+        },
+        {
+            "name": "Namibia",
+            "continent": "Africa",
+            "pop": "2.00",
+            "area": "318696.00"
+        },
+        {
+            "name": "Nauru",
+            "continent": "Australia/Oceania",
+            "pop": "0.00",
+            "area": "8.00"
+        },
+        {
+            "name": "Nepal",
+            "continent": "Asia",
+            "pop": "29.00",
+            "area": "56827.00"
+        },
+        {
+            "name": "Netherlands",
+            "continent": "Europe",
+            "pop": "17.00",
+            "area": "16033.00"
+        },
+        {
+            "name": "New Zealand",
+            "continent": "Australia/Oceania",
+            "pop": "4.00",
+            "area": "103738.00"
+        },
+        {
+            "name": "Nicaragua",
+            "continent": "North America",
+            "pop": "6.00",
+            "area": "50193.00"
+        },
+        {
+            "name": "Niger",
+            "continent": "Africa",
+            "pop": "15.00",
+            "area": "489678.00"
+        },
+        {
+            "name": "Nigeria",
+            "continent": "Africa",
+            "pop": "155.00",
+            "area": "356669.00"
+        },
+        {
+            "name": "Norway",
+            "continent": "Europe",
+            "pop": "5.00",
+            "area": "148746.00"
+        },
+        {
+            "name": "Oman",
+            "continent": "Asia",
+            "pop": "3.00",
+            "area": "119498.00"
+        },
+        {
+            "name": "Pakistan",
+            "continent": "Asia",
+            "pop": "167.00",
+            "area": "310403.00"
+        },
+        {
+            "name": "Palau",
+            "continent": "Australia/Oceania",
+            "pop": "0.00",
+            "area": "177.00"
+        },
+        {
+            "name": "Panama",
+            "continent": "North America",
+            "pop": "4.00",
+            "area": "29157.00"
+        },
+        {
+            "name": "Papua New Guinea",
+            "continent": "Australia/Oceania",
+            "pop": "7.00",
+            "area": "178703.00"
+        },
+        {
+            "name": "Paraguay",
+            "continent": "South America",
+            "pop": "6.00",
+            "area": "157048.00"
+        },
+        {
+            "name": "Peru",
+            "continent": "South America",
+            "pop": "29.00",
+            "area": "496226.00"
+        },
+        {
+            "name": "Philippines",
+            "continent": "Asia",
+            "pop": "92.00",
+            "area": "115831.00"
+        },
+        {
+            "name": "Poland",
+            "continent": "Europe",
+            "pop": "38.00",
+            "area": "120726.00"
+        },
+        {
+            "name": "Portugal",
+            "continent": "Europe",
+            "pop": "11.00",
+            "area": "35645.00"
+        },
+        {
+            "name": "Qatar",
+            "continent": "Asia",
+            "pop": "1.00",
+            "area": "4416.00"
+        },
+        {
+            "name": "Republic of Korea",
+            "continent": "Asia",
+            "pop": "48.00",
+            "area": "38622.00"
+        },
+        {
+            "name": "Republic of Moldova",
+            "continent": "Europe",
+            "pop": "4.00",
+            "area": "13067.00"
+        },
+        {
+            "name": "Republic of the Congo",
+            "continent": "Africa",
+            "pop": "4.00",
+            "area": "132047.00"
+        },
+        {
+            "name": "Romania",
+            "continent": "Europe",
+            "pop": "22.00",
+            "area": "92043.00"
+        },
+        {
+            "name": "Russian Federation",
+            "continent": "Europe",
+            "pop": "142.00",
+            "area": "6592800.00"
+        },
+        {
+            "name": "Rwanda",
+            "continent": "Africa",
+            "pop": "10.00",
+            "area": "10169.00"
+        },
+        {
+            "name": "Saint Kitts and Nevis",
+            "continent": "North America",
+            "pop": "0.00",
+            "area": "101.00"
+        },
+        {
+            "name": "Saint Lucia",
+            "continent": "North America",
+            "pop": "0.00",
+            "area": "239.00"
+        },
+        {
+            "name": "Saint Vincent and the Grenadines",
+            "continent": "North America",
+            "pop": "0.00",
+            "area": "150.00"
+        },
+        {
+            "name": "Samoa",
+            "continent": "Australia/Oceania",
+            "pop": "0.00",
+            "area": "1093.00"
+        },
+        {
+            "name": "San Marino",
+            "continent": "Europe",
+            "pop": "0.00",
+            "area": "24.00"
+        },
+        {
+            "name": "Sao Tome and Principe",
+            "continent": "Africa",
+            "pop": "0.00",
+            "area": "372.00"
+        },
+        {
+            "name": "Saudi Arabia",
+            "continent": "Asia",
+            "pop": "26.00",
+            "area": "829996.00"
+        },
+        {
+            "name": "Senegal",
+            "continent": "Africa",
+            "pop": "13.00",
+            "area": "76000.00"
+        },
+        {
+            "name": "Serbia",
+            "continent": "Europe",
+            "pop": "10.00",
+            "area": "34116.00"
+        },
+        {
+            "name": "Seychelles",
+            "continent": "Africa",
+            "pop": "0.00",
+            "area": "174.00"
+        },
+        {
+            "name": "Sierra Leone",
+            "continent": "Africa",
+            "pop": "6.00",
+            "area": "27699.00"
+        },
+        {
+            "name": "Singapore",
+            "continent": "Asia",
+            "pop": "5.00",
+            "area": "274.00"
+        },
+        {
+            "name": "Slovakia",
+            "continent": "Europe",
+            "pop": "5.00",
+            "area": "18932.00"
+        },
+        {
+            "name": "Slovenia",
+            "continent": "Europe",
+            "pop": "2.00",
+            "area": "7827.00"
+        },
+        {
+            "name": "Solomon Islands",
+            "continent": "Australia/Oceania",
+            "pop": "1.00",
+            "area": "43.00"
+        },
+        {
+            "name": "Somalia",
+            "continent": "Africa",
+            "pop": "9.00",
+            "area": "246201.00"
+        },
+        {
+            "name": "South Africa",
+            "continent": "Africa",
+            "pop": "49.00",
+            "area": "471443.00"
+        },
+        {
+            "name": "South Sudan",
+            "continent": "Africa",
+            "pop": "8.00",
+            "area": "239285.00"
+        },
+        {
+            "name": "Spain",
+            "continent": "Europe",
+            "pop": "45.00",
+            "area": "195364.00"
+        },
+        {
+            "name": "Sri Lanka",
+            "continent": "Asia",
+            "pop": "20.00",
+            "area": "25332.00"
+        },
+        {
+            "name": "Sudan",
+            "continent": "Africa",
+            "pop": "42.00",
+            "area": "967495.00"
+        },
+        {
+            "name": "Suriname",
+            "continent": "South America",
+            "pop": "1.00",
+            "area": "63251.00"
+        },
+        {
+            "name": "Swaziland",
+            "continent": "Africa",
+            "pop": "1.00",
+            "area": "6704.00"
+        },
+        {
+            "name": "Sweden",
+            "continent": "Europe",
+            "pop": "9.00",
+            "area": "173732.00"
+        },
+        {
+            "name": "Switzerland",
+            "continent": "Europe",
+            "pop": "8.00",
+            "area": "15940.00"
+        },
+        {
+            "name": "Syrian Arab Republic",
+            "continent": "Asia",
+            "pop": "22.00",
+            "area": "71479.00"
+        },
+        {
+            "name": "Tajikistan",
+            "continent": "Asia",
+            "pop": "7.00",
+            "area": "55251.00"
+        },
+        {
+            "name": "Thailand",
+            "continent": "Asia",
+            "pop": "63.00",
+            "area": "198115.00"
+        },
+        {
+            "name": "The former Yugoslav Republic of Macedonia",
+            "continent": "Europe",
+            "pop": "2.00",
+            "area": "205.00"
+        },
+        {
+            "name": "Timor-Leste",
+            "continent": "Asia",
+            "pop": "1.00",
+            "area": "5743.00"
+        },
+        {
+            "name": "Togo",
+            "continent": "Africa",
+            "pop": "7.00",
+            "area": "21925.00"
+        },
+        {
+            "name": "Tonga",
+            "continent": "Australia/Oceania",
+            "pop": "0.00",
+            "area": "289.00"
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "continent": "North America",
+            "pop": "1.00",
+            "area": "1978.00"
+        },
+        {
+            "name": "Tunisia",
+            "continent": "Africa",
+            "pop": "10.00",
+            "area": "63170.00"
+        },
+        {
+            "name": "Turkey",
+            "continent": "Asia",
+            "pop": "72.00",
+            "area": "302535.00"
+        },
+        {
+            "name": "Turkmenistan",
+            "continent": "Asia",
+            "pop": "5.00",
+            "area": "188456.00"
+        },
+        {
+            "name": "Tuvalu",
+            "continent": "Australia/Oceania",
+            "pop": "0.00",
+            "area": "10.00"
+        },
+        {
+            "name": "Uganda",
+            "continent": "Africa",
+            "pop": "33.00",
+            "area": "91136.00"
+        },
+        {
+            "name": "Ukraine",
+            "continent": "Europe",
+            "pop": "46.00",
+            "area": "233090.00"
+        },
+        {
+            "name": "United Arab Emirates",
+            "continent": "Asia",
+            "pop": "5.00",
+            "area": "32278.00"
+        },
+        {
+            "name": "United Kingdom",
+            "continent": "Europe",
+            "pop": "62.00",
+            "area": "94526.00"
+        },
+        {
+            "name": "United Republic of Tanzania",
+            "continent": "Africa",
+            "pop": "40.00",
+            "area": "364898.00"
+        },
+        {
+            "name": "United States",
+            "continent": "North America",
+            "pop": "307.00",
+            "area": "3794066.00"
+        },
+        {
+            "name": "Uruguay",
+            "continent": "South America",
+            "pop": "3.00",
+            "area": "68037.00"
+        },
+        {
+            "name": "Uzbekistan",
+            "continent": "Asia",
+            "pop": "28.00",
+            "area": "172742.00"
+        },
+        {
+            "name": "Vanuatu",
+            "continent": "Australia/Oceania",
+            "pop": "0.00",
+            "area": "4706.00"
+        },
+        {
+            "name": "Venezuela",
+            "continent": "South America",
+            "pop": "28.00",
+            "area": "353841.00"
+        },
+        {
+            "name": "Vietnam",
+            "continent": "Asia",
+            "pop": "88.00",
+            "area": "128527.00"
+        },
+        {
+            "name": "Yemen",
+            "continent": "Asia",
+            "pop": "24.00",
+            "area": "203849.00"
+        },
+        {
+            "name": "Zambia",
+            "continent": "Africa",
+            "pop": "13.00",
+            "area": "290587.00"
+        },
+        {
+            "name": "Zimbabwe",
+            "continent": "Africa",
+            "pop": "13.00",
+            "area": "150871.00"
+        }
+    ]
+}
