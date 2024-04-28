@@ -46,7 +46,7 @@ function showCountries(countries, selectedContinent)
     try 
     {
         let table = document.createElement("table");
-        table.className = "bold-borders-table black-thead table-padding-4px table-th-center table-td-right table-1st-td-left";
+        table.className = "bold-borders-table black-thead w3-medium table-padding-3px table-th-center table-td-right table-1st-td-left";
         table.innerHTML = "<tr><th>Country</th><th>Population</th><th>Area</th></tr>";
 
         let found_a_match = false;
@@ -58,8 +58,8 @@ function showCountries(countries, selectedContinent)
                 found_a_match = true;
                 let row = table.insertRow();
                 row.innerHTML = "<td>" + country.name + "</td>" +
-                    "<td>" + country.pop + "</td>" +
-                    "<td>" + country.area + "</td>";
+                    "<td>" + parseInt(country.pop).toLocaleString() + "</td>" +
+                    "<td>" + parseFloat(country.area).toLocaleString() + "</td>";
             }
         }
         if (!found_a_match) {
